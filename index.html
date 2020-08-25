@@ -82,17 +82,28 @@ template{display:none;}/*!sc*/
 html{font-size:62.5%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;box-sizing:border-box;}/*!sc*/
 body{background:#f8fafc;font-family:'Open Sans',sans-serif;line-height:1.5;padding:50px 0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}/*!sc*/
 img{max-width:100%;}/*!sc*/
-.categories-bar{position:absolute;top:0;right:0;}/*!sc*/
+.categories-bar{position:fixed;top:200px;left:125px;}/*!sc*/
+.categories-bar > a:first-of-type{display:inline-block;}/*!sc*/
+.categories-bar .same-line{display:inline-block;margin-bottom:3px;}/*!sc*/
+.categories-bar .same-line *{display:inline;}/*!sc*/
+.categories-bar .title{font-size:25px;color:#000;font-weight:700;-webkit-letter-spacing:-0.01em;-moz-letter-spacing:-0.01em;-ms-letter-spacing:-0.01em;letter-spacing:-0.01em;}/*!sc*/
+.categories-bar .sub-title{font-size:14px;font-weight:700;color:#333333;word-spacing:-1px;-webkit-letter-spacing:-0.03em;-moz-letter-spacing:-0.03em;-ms-letter-spacing:-0.03em;letter-spacing:-0.03em;}/*!sc*/
+.categories-bar .category-wrap{position:relative;padding:5px 12px;}/*!sc*/
+.categories-bar .category-wrap a{-webkit-text-decoration:none;text-decoration:none;}/*!sc*/
+.categories-bar .category-wrap a .sub-links{font-size:16px;font-weight:700;opacity:0.45;-webkit-transition:opacity 100ms ease;transition:opacity 100ms ease;color:#000;}/*!sc*/
+.categories-bar .category-wrap::before{content:"";position:absolute;border-left:3px solid black;-webkit-transition:opacity 100ms ease;transition:opacity 100ms ease;height:75%;left:2px;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);opacity:0;-webkit-transition:opacity 100ms ease;transition:opacity 100ms ease;}/*!sc*/
+.categories-bar .category-wrap[data-is-current] .sub-links,.categories-bar .category-wrap:hover .sub-links{opacity:1;-webkit-transition:opacity 100ms ease;transition:opacity 100ms ease;}/*!sc*/
+.categories-bar .category-wrap[data-is-current]::before,.categories-bar .category-wrap:hover::before{opacity:1;-webkit-transition:opacity 100ms ease;transition:opacity 100ms ease;}/*!sc*/
 .gatsby-highlight{border-bottom:1px solid #e0e6ed;border-top:1px solid #e0e6ed;margin:15px -90px;padding:0;}/*!sc*/
 .gatsby-highlight pre[class*="language-"]{margin:0;padding:25px 140px 27px 140px;}/*!sc*/
 pre[class*="language-"]{background:rgba(245,245,245,1);color:rgb(65,76,94);}/*!sc*/
 @media only screen and (max-width:870px){body{padding:15px 0;}.categories-bar{position:fixed;opacity:0.25;background:#f9fafc;border:1px solid black;}.gatsby-highlight{margin:15px -15px;}.gatsby-highlight pre[class*="language-"]{padding:25px;}}/*!sc*/
-data-styled.g26[id="sc-global-geSxMa1"]{content:"sc-global-geSxMa1,"}/*!sc*/
-</style><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link rel="alternate" type="application/rss+xml" title="Your Site&#x27;s RSS Feed" href="/rss.xml"/><title data-react-helmet="true">TinoIoT</title><meta data-react-helmet="true" name="description" content="TinoIoT | Welcome Everyone!"/><link as="script" rel="preload" href="/webpack-runtime-46a9236153d1601c14fd.js"/><link as="script" rel="preload" href="/app-ef848a445126025d4c58.js"/><link as="script" rel="preload" href="/styles-2d82ac8e3afc0c213061.js"/><link as="script" rel="preload" href="/d8c6fceef6035ce68615adfef14ec1b550203772-75e79fd7218a542d78ff.js"/><link as="script" rel="preload" href="/2ca085fac04eec258979fa96688fdd6e5c5ad72a-b6a8ac086d70f73e3826.js"/><link as="script" rel="preload" href="/component---src-templates-index-js-fd7d8d6080bf18f955ce.js"/><link as="fetch" rel="preload" href="/page-data\index\page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2051429651.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data\app-data.json" crossorigin="anonymous"/><link rel="shortcut icon" href="/static/favicon-d24f6d41f0d6f454f5b414b561e64dee.ico"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div><section class="Container-sc-1athbsu-0 lgWaYF"><header class="Wrapper-aooi4p-0 iRFTCQ"><div class="Wrapper-sc-5runh9-0 bvHsaw"><a aria-current="page" class="" href="/"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:320px;height:320px"><img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAADAUlEQVQ4y81UW08TURDuv/EFn/0J+qRoiFEjkSioCFIKVCGaoFG8oDESSdB4QRLERCEKKmI0BFEiyKUFW0oBwYKgpZft9rbd7eVz5rSLC08+8ODD7M65zHdmvm/OMVVPBbGVZvr/AasmA8KxbrKa3J/X9D3/nGElBRwf9+PEhB8nyUrIL7MFhG+2BwS40fQD9LHxUBODXZiW8MEbR9/vOHpWY/joU/BgMYJX5De6Qzhl86OCgPl/2h5YByilMc/pYPw3cQaXXSF8CSSwlkghnclgKqSiYymKYZq7NSvj6kwITXMy2jwRNM+HBThn9oT2tNMcg1n0DPXaD3/14eVKDCvxJIrHs6d6YkncJMDRYAKylhYHJVIZ1FNFNknFQjSJRbIJ8s25zEmULPmlxFfvrzhWlZTgtO5bENFkGrcpMw4YWFNEUITmWn9EoKYzYk+9UxJVMW28bsoqzKL48J44lNSUWKilzRoFcalOWcOQPyHKzGSyc16ip5sqekNJ+Mi36hzyx+qQUeEI4/FyHAMBTWTIhwySOA3E7wsKbPdEBU8jxOtFyubeQliUPB/RhL/OodUVRUmfHQUtz1HUPYLCriGYx72oc4UpWME1UplbigPOOSQUjfpEySHiVFKzxj7PcauZzs4qONI5iB0lVdjf8gwFzR042jMC67AHGYBUDuEGgS6RQFzmO6LlDNFxnsDdYQ0zZHxQnSNXcvWUBIttDXl7DqL49Rh2X7+PXQ0tKOsdQ4wBCYyV7CdRuFTmlVuHM50k1VkwrmD9plhsPtTOa9h75ym27cxHUdcnHGh7C3P/NOIE2DQXEq3U9TOGchJLobZ5SE1/bMwPh6wKUG7uGuPVs9gZVEXB3U5szz+EvH2FKGztgUKAja4gHhE/flJ/mYC5FzmYQey5DDcA6tdGZPpdg9UZRtnnBVgmvLjilkX7lBPZl0ht7kkWh43jmAI2i+HxEIBGUPZrnDKYW+5HMaY19svtG18dbq9Kwz3OifJ3YPSNT5bxddm8f/PztuUP7B9qTB457BZfgQAAAABJRU5ErkJggg==" alt="IoT Logo" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source srcset="/static/81c1f7e9f26b7789cb721a06622fb5c1/b8abe/main.png 1x,
+data-styled.g26[id="sc-global-eGHoxY1"]{content:"sc-global-eGHoxY1,"}/*!sc*/
+</style><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link rel="alternate" type="application/rss+xml" title="Your Site&#x27;s RSS Feed" href="/rss.xml"/><title data-react-helmet="true">TinoIoT</title><meta data-react-helmet="true" name="description" content="TinoIoT | Welcome Everyone!"/><link as="script" rel="preload" href="/webpack-runtime-0941a0d9fe899eaf48a5.js"/><link as="script" rel="preload" href="/app-1cc1d6fe3da368d025c9.js"/><link as="script" rel="preload" href="/styles-2d82ac8e3afc0c213061.js"/><link as="script" rel="preload" href="/d8c6fceef6035ce68615adfef14ec1b550203772-75e79fd7218a542d78ff.js"/><link as="script" rel="preload" href="/2ca085fac04eec258979fa96688fdd6e5c5ad72a-742658f041075f730407.js"/><link as="script" rel="preload" href="/component---src-templates-index-js-d4c0a7a9fd6f93597175.js"/><link as="fetch" rel="preload" href="/page-data\index\page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2051429651.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data\app-data.json" crossorigin="anonymous"/><link rel="shortcut icon" href="/static/favicon-d24f6d41f0d6f454f5b414b561e64dee.ico"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div><section class="Container-sc-1athbsu-0 lgWaYF"><header class="Wrapper-aooi4p-0 iRFTCQ"><div class="Wrapper-sc-5runh9-0 bvHsaw"><a aria-current="page" class="" href="/"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:320px;height:320px"><img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAADAUlEQVQ4y81UW08TURDuv/EFn/0J+qRoiFEjkSioCFIKVCGaoFG8oDESSdB4QRLERCEKKmI0BFEiyKUFW0oBwYKgpZft9rbd7eVz5rSLC08+8ODD7M65zHdmvm/OMVVPBbGVZvr/AasmA8KxbrKa3J/X9D3/nGElBRwf9+PEhB8nyUrIL7MFhG+2BwS40fQD9LHxUBODXZiW8MEbR9/vOHpWY/joU/BgMYJX5De6Qzhl86OCgPl/2h5YByilMc/pYPw3cQaXXSF8CSSwlkghnclgKqSiYymKYZq7NSvj6kwITXMy2jwRNM+HBThn9oT2tNMcg1n0DPXaD3/14eVKDCvxJIrHs6d6YkncJMDRYAKylhYHJVIZ1FNFNknFQjSJRbIJ8s25zEmULPmlxFfvrzhWlZTgtO5bENFkGrcpMw4YWFNEUITmWn9EoKYzYk+9UxJVMW28bsoqzKL48J44lNSUWKilzRoFcalOWcOQPyHKzGSyc16ip5sqekNJ+Mi36hzyx+qQUeEI4/FyHAMBTWTIhwySOA3E7wsKbPdEBU8jxOtFyubeQliUPB/RhL/OodUVRUmfHQUtz1HUPYLCriGYx72oc4UpWME1UplbigPOOSQUjfpEySHiVFKzxj7PcauZzs4qONI5iB0lVdjf8gwFzR042jMC67AHGYBUDuEGgS6RQFzmO6LlDNFxnsDdYQ0zZHxQnSNXcvWUBIttDXl7DqL49Rh2X7+PXQ0tKOsdQ4wBCYyV7CdRuFTmlVuHM50k1VkwrmD9plhsPtTOa9h75ym27cxHUdcnHGh7C3P/NOIE2DQXEq3U9TOGchJLobZ5SE1/bMwPh6wKUG7uGuPVs9gZVEXB3U5szz+EvH2FKGztgUKAja4gHhE/flJ/mYC5FzmYQey5DDcA6tdGZPpdg9UZRtnnBVgmvLjilkX7lBPZl0ht7kkWh43jmAI2i+HxEIBGUPZrnDKYW+5HMaY19svtG18dbq9Kwz3OifJ3YPSNT5bxddm8f/PztuUP7B9qTB457BZfgQAAAABJRU5ErkJggg==" alt="IoT Logo" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source srcset="/static/81c1f7e9f26b7789cb721a06622fb5c1/b8abe/main.png 1x,
 /static/81c1f7e9f26b7789cb721a06622fb5c1/0ed41/main.png 1.5x,
 /static/81c1f7e9f26b7789cb721a06622fb5c1/a7149/main.png 2x" /><img loading="lazy" width="320" height="320" srcset="/static/81c1f7e9f26b7789cb721a06622fb5c1/b8abe/main.png 1x,
 /static/81c1f7e9f26b7789cb721a06622fb5c1/0ed41/main.png 1.5x,
-/static/81c1f7e9f26b7789cb721a06622fb5c1/a7149/main.png 2x" src="/static/81c1f7e9f26b7789cb721a06622fb5c1/b8abe/main.png" alt="IoT Logo" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></a></div><h1 class="H1-sc-1kzbinp-0 BQjCe"><a aria-current="page" class="Link-sc-1rkkcb0-0 cWxKdE" href="/">Cupertino IoT Club</a></h1><p class="P-sc-1gf8sjw-0 P-gv2bya-0 iTnEQu">Welcome Everyone!</p><div class="Wrapper-sc-15qmnc4-0 eIlkxo"><a href="https://twitter.com" target="_blank" rel="noopener" class="SocialLink-sc-3dybjn-0 cUdNeB"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>Twitter</a><a href="https://github.com/TinoIoT" target="_blank" rel="noopener" class="SocialLink-sc-3dybjn-0 cUdNeB"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>Github</a><a href="https://linkedin.com/in/" target="_blank" rel="noopener" class="SocialLink-sc-3dybjn-0 cUdNeB"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>LinkedIn</a></div></header></section><div data-cur-category="" class="categories-bar"><div class="category-wrap" data-category="/blogs"><a href="/blogs"><h1>/blogs</h1></a></div><div class="category-wrap" data-category="/"><a aria-current="page" class="" href="/"><h1>/all</h1></a></div><h1>Current Category: </h1><h2>all</h2></div><section class="Container-sc-1athbsu-0 lgWaYF"><div class="Card-sc-1kworww-0 fKQpzi"><div class="Wrapper-yoi3x6-0 dVizpi"><a class="Link-z1bs02-0 hipbRb" href="/blogs/about-us/"><div class="Wrapper-sc-16m3ic3-0 hIagJF"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden"><div aria-hidden="true" style="width:100%;padding-bottom:52.631578947368425%"></div><img aria-hidden="true" src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAABRdCgbokgr//EABgQAQEBAQEAAAAAAAAAAAAAAAIBEQNB/9oACAEBAAEFAq66BM9OQqYOIlH/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPwFJ/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BJ//EABwQAAICAgMAAAAAAAAAAAAAAAAhARECImGRof/aAAgBAQAGPwLYeXomSuSy7ns//8QAGhABAAMBAQEAAAAAAAAAAAAAAQARIUExcf/aAAgBAQABPyHxseMWWhhdDoPJlzia2Ytb8+S9h3kf/9oADAMBAAIAAwAAABCPz//EABcRAQEBAQAAAAAAAAAAAAAAAAEAITH/2gAIAQMBAT8QRO23/8QAFhEBAQEAAAAAAAAAAAAAAAAAACEB/9oACAECAQE/ENVH/8QAGxABAQEAAgMAAAAAAAAAAAAAAREAIVExQWH/2gAIAQEAAT8QECh8IWd5i6CwEnejUoWHclPvlP2uMYZAXgNoZwgXwgb/2Q==" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/cb58475fb36cea4bba85db52207c51a0/975bf/featured_img.webp 225w,
+/static/81c1f7e9f26b7789cb721a06622fb5c1/a7149/main.png 2x" src="/static/81c1f7e9f26b7789cb721a06622fb5c1/b8abe/main.png" alt="IoT Logo" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></a></div><h1 class="H1-sc-1kzbinp-0 BQjCe"><a aria-current="page" class="Link-sc-1rkkcb0-0 cWxKdE" href="/">Cupertino IoT Club</a></h1><p class="P-sc-1gf8sjw-0 P-gv2bya-0 iTnEQu">Welcome Everyone!</p><div class="Wrapper-sc-15qmnc4-0 eIlkxo"><a href="https://twitter.com" target="_blank" rel="noopener" class="SocialLink-sc-3dybjn-0 cUdNeB"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>Twitter</a><a href="https://github.com/TinoIoT" target="_blank" rel="noopener" class="SocialLink-sc-3dybjn-0 cUdNeB"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>Github</a><a href="https://linkedin.com/in/" target="_blank" rel="noopener" class="SocialLink-sc-3dybjn-0 cUdNeB"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>LinkedIn</a></div></header></section><div class="categories-bar"><a aria-current="page" href="/"><span class="same-line"><div class="title">TinoIoT</div><div class="sub-title"> AT CHS</div></span></a><div class="category-wrap" data-is-current="true"><a aria-current="page" class="" href="/"><div class="sub-links">All Posts</div></a></div><div class="category-wrap"><a href="/tutorials/"><div class="sub-links">Tutorials</div></a></div><div class="category-wrap"><a href="/blogs/"><div class="sub-links">Blogs</div></a></div><div class="category-wrap"><a href="/blogs/about-us/"><div class="sub-links">About Us</div></a></div><div class="category-wrap"><a href="/blogs/all-about-iot/"><div class="sub-links">What is IoT</div></a></div></div><section class="Container-sc-1athbsu-0 lgWaYF"><div class="Card-sc-1kworww-0 fKQpzi"><div class="Wrapper-yoi3x6-0 dVizpi"><a class="Link-z1bs02-0 hipbRb" href="/blogs/about-us/"><div class="Wrapper-sc-16m3ic3-0 hIagJF"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden"><div aria-hidden="true" style="width:100%;padding-bottom:52.631578947368425%"></div><img aria-hidden="true" src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAABRdCgbokgr//EABgQAQEBAQEAAAAAAAAAAAAAAAIBEQNB/9oACAEBAAEFAq66BM9OQqYOIlH/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPwFJ/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BJ//EABwQAAICAgMAAAAAAAAAAAAAAAAhARECImGRof/aAAgBAQAGPwLYeXomSuSy7ns//8QAGhABAAMBAQEAAAAAAAAAAAAAAQARIUExcf/aAAgBAQABPyHxseMWWhhdDoPJlzia2Ytb8+S9h3kf/9oADAMBAAIAAwAAABCPz//EABcRAQEBAQAAAAAAAAAAAAAAAAEAITH/2gAIAQMBAT8QRO23/8QAFhEBAQEAAAAAAAAAAAAAAAAAACEB/9oACAECAQE/ENVH/8QAGxABAQEAAgMAAAAAAAAAAAAAAREAIVExQWH/2gAIAQEAAT8QECh8IWd5i6CwEnejUoWHclPvlP2uMYZAXgNoZwgXwgb/2Q==" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/cb58475fb36cea4bba85db52207c51a0/975bf/featured_img.webp 225w,
 /static/cb58475fb36cea4bba85db52207c51a0/b8a88/featured_img.webp 450w,
 /static/cb58475fb36cea4bba85db52207c51a0/210c1/featured_img.webp 900w,
 /static/cb58475fb36cea4bba85db52207c51a0/5616c/featured_img.webp 1350w,
@@ -107,20 +118,20 @@ data-styled.g26[id="sc-global-geSxMa1"]{content:"sc-global-geSxMa1,"}/*!sc*/
 /static/cb58475fb36cea4bba85db52207c51a0/9842e/featured_img.jpg 900w,
 /static/cb58475fb36cea4bba85db52207c51a0/724e2/featured_img.jpg 1350w,
 /static/cb58475fb36cea4bba85db52207c51a0/52258/featured_img.jpg 1800w,
-/static/cb58475fb36cea4bba85db52207c51a0/cc4b4/featured_img.jpg 3348w" src="/static/cb58475fb36cea4bba85db52207c51a0/9842e/featured_img.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div></a><h1 class="H1-sc-1kzbinp-0 BQjCe"><a class="Link-z1bs02-0 hipbRb" href="/blogs/about-us/">About Us<svg data-tip="true" data-for="pinDesc" class="Pin-sc-2vzxcs-0 eHNfpT"><svg viewBox="0 0 489.493 489.493" class="pin"><path xmlns="http://www.w3.org/2000/svg" d="M485.322,117.705c12.204-12.238-3.274-47.577-34.636-78.93c-30.99-30.99-65.76-46.396-78.401-34.941l-0.246-0.236  l-173.715,156.02c-32.117-27.993-80.684-27.038-111.278,3.534c-5.149,5.157-8.051,12.146-8.051,19.437  c0,7.292,2.901,14.283,8.051,19.431l78.808,78.801L3.902,463.627c-5.148,5.799-5.262,14.655,0.015,20.601  c5.689,6.403,15.497,6.992,21.916,1.294l182.575-162.137l7.84,7.829l40.601,40.603l0,0l30.336,30.329  c5.15,5.147,12.139,8.039,19.424,8.039c7.278,0,14.272-2.898,19.419-8.056c30.561-30.573,31.524-79.158,3.539-111.27L484.771,118.03  C484.927,117.892,485.177,117.861,485.322,117.705z"></path></svg></svg></a></h1><div class="__react_component_tooltip t61b04b15-aaca-419d-949c-00086b1c03ec place-top type-dark" id="pinDesc" data-id="tooltip"><style>
-  	.t61b04b15-aaca-419d-949c-00086b1c03ec {
+/static/cb58475fb36cea4bba85db52207c51a0/cc4b4/featured_img.jpg 3348w" src="/static/cb58475fb36cea4bba85db52207c51a0/9842e/featured_img.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div></a><h1 class="H1-sc-1kzbinp-0 BQjCe"><a class="Link-z1bs02-0 hipbRb" href="/blogs/about-us/">About Us<svg data-tip="true" data-for="pinDesc" class="Pin-sc-2vzxcs-0 eHNfpT"><svg viewBox="0 0 489.493 489.493" class="pin"><path xmlns="http://www.w3.org/2000/svg" d="M485.322,117.705c12.204-12.238-3.274-47.577-34.636-78.93c-30.99-30.99-65.76-46.396-78.401-34.941l-0.246-0.236  l-173.715,156.02c-32.117-27.993-80.684-27.038-111.278,3.534c-5.149,5.157-8.051,12.146-8.051,19.437  c0,7.292,2.901,14.283,8.051,19.431l78.808,78.801L3.902,463.627c-5.148,5.799-5.262,14.655,0.015,20.601  c5.689,6.403,15.497,6.992,21.916,1.294l182.575-162.137l7.84,7.829l40.601,40.603l0,0l30.336,30.329  c5.15,5.147,12.139,8.039,19.424,8.039c7.278,0,14.272-2.898,19.419-8.056c30.561-30.573,31.524-79.158,3.539-111.27L484.771,118.03  C484.927,117.892,485.177,117.861,485.322,117.705z"></path></svg></svg></a></h1><div class="__react_component_tooltip teb3679fd-aa42-46ae-8de5-bf837a7d3a73 place-top type-dark" id="pinDesc" data-id="tooltip"><style>
+  	.teb3679fd-aa42-46ae-8de5-bf837a7d3a73 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t61b04b15-aaca-419d-949c-00086b1c03ec.place-top {
+  	.teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-top {
         margin-top: -10px;
     }
-    .t61b04b15-aaca-419d-949c-00086b1c03ec.place-top::before {
+    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t61b04b15-aaca-419d-949c-00086b1c03ec.place-top::after {
+    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -131,13 +142,13 @@ data-styled.g26[id="sc-global-geSxMa1"]{content:"sc-global-geSxMa1,"}/*!sc*/
         border-top-width: 6px;
     }
 
-    .t61b04b15-aaca-419d-949c-00086b1c03ec.place-bottom {
+    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-bottom {
         margin-top: 10px;
     }
-    .t61b04b15-aaca-419d-949c-00086b1c03ec.place-bottom::before {
+    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t61b04b15-aaca-419d-949c-00086b1c03ec.place-bottom::after {
+    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -148,13 +159,13 @@ data-styled.g26[id="sc-global-geSxMa1"]{content:"sc-global-geSxMa1,"}/*!sc*/
         border-bottom-width: 6px;
     }
 
-    .t61b04b15-aaca-419d-949c-00086b1c03ec.place-left {
+    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-left {
         margin-left: -10px;
     }
-    .t61b04b15-aaca-419d-949c-00086b1c03ec.place-left::before {
+    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t61b04b15-aaca-419d-949c-00086b1c03ec.place-left::after {
+    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -165,13 +176,13 @@ data-styled.g26[id="sc-global-geSxMa1"]{content:"sc-global-geSxMa1,"}/*!sc*/
         border-left-width: 6px;
     }
 
-    .t61b04b15-aaca-419d-949c-00086b1c03ec.place-right {
+    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-right {
         margin-left: 10px;
     }
-    .t61b04b15-aaca-419d-949c-00086b1c03ec.place-right::before {
+    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t61b04b15-aaca-419d-949c-00086b1c03ec.place-right::after {
+    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -181,26 +192,35 @@ data-styled.g26[id="sc-global-geSxMa1"]{content:"sc-global-geSxMa1,"}/*!sc*/
         border-right-style: solid;
         border-right-width: 6px;
     }
-  </style><span>This Post Was Pinned!</span></div><span class="Date-lu8tvw-0 gDspQD">August 19, 2020</span><p class="P-sc-1gf8sjw-0 jotnOU"> The TinoIOT (Internet Of Things) Club’s primary objective revolves around the introduction and promotion of engineering and collaboration.  Our mission…</p><a class="ContinueReading-sc-1enmb1t-0 dDLOTN" href="/blogs/about-us/">Continue Reading →</a></div></div><div class="Card-sc-1kworww-0 fKQpzi"><div class="Wrapper-yoi3x6-0 dVizpi"><a class="Link-z1bs02-0 hipbRb" href="/blogs/all-about-iot/"><div class="Wrapper-sc-16m3ic3-0 hIagJF"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden"><div aria-hidden="true" style="width:100%;padding-bottom:52.631578947368425%"></div><img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAADBklEQVQozx2S7U+bVRjGT5/2eWuftjyDbb6OubkAY2sLhXVQXAtjjLoyRF5KkUJfGK+jIK+VlhTjMhNNHBoTnYoaYtQPxiWLTr8sxvhBYzSamCwa/5ifJ344yblPrlz3777uI0TiffT8fdTsPRzZBygLP+JY/gWx8hti8y/E1iOUnb/Rqv/iqvyDsv0IsfYn6ubvOG/+hMh+j5K9jzbzLWLgQ4Qeu4V3/FO00UOMyS9QJ79Enf4ac/UH2eAbRP4hZvkP6l79Fbv8M87Cd4j0PYz5B7gXH+IaOsQa+4Sjuc9R4m8gtLaXsZ4rYfS+hTX4DvaL++jX3kVPf4V6/S7G4F3szGfUZT5GTx2iydpI3EFNvI2ZkPr0Ae6hD3CeX8URLErD0CK+K1WcgQUcoRXMzhJm/77s9ibOjjJP9e9id1ewe/eojW+hdu1hJD/iaPYAT6yM2nITravMkdH3UJpmEGpjBu1cHi0wx/HUPtalPSkq4o6s8sSFAi39y7QnluhILhOS97rIAlrrGmq4iN68JPW7eC6uyIYllFMTCFfTrDRbRGucxO7Zxh+YQpwYJxidoDOeInI5R7Q3T6xnnPbLBSKxFKGLwxgSwh9dx+rcwHkqjbejiPO0NFTqx6np2qD20hau48/jPjmCp30TsymDePwFzrSmCPdNEZaETzcPI05msJ5N45PZ1/aVMc9No8m6pvsVnA1z0rAhLekmcJ/NUNu1jCc4i+PEGHZfhScn7yAeG8QXWcErSbSGCfTQElrzDdT6MfTADfTGPMbpYfSzU7jOFxAimEU0vvT/sQeq+OMlOUIKtwzaH1/DUT+E2r6DEa3yTHIDo20OMzCN3TyCL7Yqp1tHCy1wbP4A/0BFEsrMrP4Knt5dfN1FjHAWX3QeKzKL0TqDGcpxpDWDuyWH1bOD79prUlPA3bkkN3ubY+nbGLF1akZfx7qyhXCcGcHbI/9iXwmrWxIFc3ivlqi5XsGbvIXSMou3TRqGp+W4GVRJqAWnMGTm3mQV39VtufEZ9AsyBvn+H1LtiTuXlOg5AAAAAElFTkSuQmCC" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/de4b985ca18c5c8357a44de463aedd88/975bf/featuredImage.webp 225w,
-/static/de4b985ca18c5c8357a44de463aedd88/b8a88/featuredImage.webp 450w,
-/static/de4b985ca18c5c8357a44de463aedd88/ed107/featuredImage.webp 810w" sizes="(max-width: 810px) 100vw, 810px" /><source srcset="/static/de4b985ca18c5c8357a44de463aedd88/7e7e9/featuredImage.png 225w,
-/static/de4b985ca18c5c8357a44de463aedd88/62b1f/featuredImage.png 450w,
-/static/de4b985ca18c5c8357a44de463aedd88/00519/featuredImage.png 810w" sizes="(max-width: 810px) 100vw, 810px" /><img loading="lazy" sizes="(max-width: 810px) 100vw, 810px" srcset="/static/de4b985ca18c5c8357a44de463aedd88/7e7e9/featuredImage.png 225w,
-/static/de4b985ca18c5c8357a44de463aedd88/62b1f/featuredImage.png 450w,
-/static/de4b985ca18c5c8357a44de463aedd88/00519/featuredImage.png 810w" src="/static/de4b985ca18c5c8357a44de463aedd88/00519/featuredImage.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div></a><h1 class="H1-sc-1kzbinp-0 BQjCe"><a class="Link-z1bs02-0 hipbRb" href="/blogs/all-about-iot/">All About IoT</a></h1><div class="__react_component_tooltip tfd0fc729-751a-4176-85d6-cbe8a8e9533a place-top type-dark" id="pinDesc" data-id="tooltip"><style>
-  	.tfd0fc729-751a-4176-85d6-cbe8a8e9533a {
+  </style><span>This Post Was Pinned!</span></div><span class="Date-lu8tvw-0 gDspQD">August 19, 2020</span><p class="P-sc-1gf8sjw-0 jotnOU"> The TinoIOT (Internet Of Things) Club’s primary objective revolves around the introduction and promotion of engineering and collaboration.  Our mission…</p><a class="ContinueReading-sc-1enmb1t-0 dDLOTN" href="/blogs/about-us/">Continue Reading →</a></div></div><div class="Card-sc-1kworww-0 fKQpzi"><div class="Wrapper-yoi3x6-0 dVizpi"><a class="Link-z1bs02-0 hipbRb" href="/tutorials/esp32-thingspeak-wm/"><div class="Wrapper-sc-16m3ic3-0 hIagJF"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden"><div aria-hidden="true" style="width:100%;padding-bottom:52.631578947368425%"></div><img aria-hidden="true" src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABfW1mGCgf/8QAGhAAAwEAAwAAAAAAAAAAAAAAAAECAxESE//aAAgBAQABBQJ7witiX2l4o82JcH//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAcEAACAQUBAAAAAAAAAAAAAAAAAXEREiExUTL/2gAIAQEABj8C3WB2pdE+mMyeqQjbP//EABwQAAICAgMAAAAAAAAAAAAAAAERACFRYTFBcf/aAAgBAQABPyEcxyo4QoBkKlzSJw0UZ95kDSS6Z6Z//9oADAMBAAIAAwAAABBcP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EAB0QAQACAgIDAAAAAAAAAAAAAAEAESFBUZExgbH/2gAIAQEAAT8QT0RsfbqMgTSXQaEa8ZgjFAU4hhDKbk6hrLgn2A+XbvNP/9k=" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/94ca67d6860306e7484202df2a48c0ff/975bf/mainpic.webp 225w,
+/static/94ca67d6860306e7484202df2a48c0ff/b8a88/mainpic.webp 450w,
+/static/94ca67d6860306e7484202df2a48c0ff/210c1/mainpic.webp 900w,
+/static/94ca67d6860306e7484202df2a48c0ff/5616c/mainpic.webp 1350w,
+/static/94ca67d6860306e7484202df2a48c0ff/685a2/mainpic.webp 1800w,
+/static/94ca67d6860306e7484202df2a48c0ff/9d54b/mainpic.webp 4032w" sizes="(max-width: 900px) 100vw, 900px" /><source srcset="/static/94ca67d6860306e7484202df2a48c0ff/07ab6/mainpic.jpg 225w,
+/static/94ca67d6860306e7484202df2a48c0ff/32fd5/mainpic.jpg 450w,
+/static/94ca67d6860306e7484202df2a48c0ff/9842e/mainpic.jpg 900w,
+/static/94ca67d6860306e7484202df2a48c0ff/724e2/mainpic.jpg 1350w,
+/static/94ca67d6860306e7484202df2a48c0ff/52258/mainpic.jpg 1800w,
+/static/94ca67d6860306e7484202df2a48c0ff/10a43/mainpic.jpg 4032w" sizes="(max-width: 900px) 100vw, 900px" /><img loading="lazy" sizes="(max-width: 900px) 100vw, 900px" srcset="/static/94ca67d6860306e7484202df2a48c0ff/07ab6/mainpic.jpg 225w,
+/static/94ca67d6860306e7484202df2a48c0ff/32fd5/mainpic.jpg 450w,
+/static/94ca67d6860306e7484202df2a48c0ff/9842e/mainpic.jpg 900w,
+/static/94ca67d6860306e7484202df2a48c0ff/724e2/mainpic.jpg 1350w,
+/static/94ca67d6860306e7484202df2a48c0ff/52258/mainpic.jpg 1800w,
+/static/94ca67d6860306e7484202df2a48c0ff/10a43/mainpic.jpg 4032w" src="/static/94ca67d6860306e7484202df2a48c0ff/9842e/mainpic.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div></a><h1 class="H1-sc-1kzbinp-0 BQjCe"><a class="Link-z1bs02-0 hipbRb" href="/tutorials/esp32-thingspeak-wm/">Sending Sensor Data to ThingSpeak</a></h1><div class="__react_component_tooltip t582701c2-59f5-452a-97e7-f088bfd2da8b place-top type-dark" id="pinDesc" data-id="tooltip"><style>
+  	.t582701c2-59f5-452a-97e7-f088bfd2da8b {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.tfd0fc729-751a-4176-85d6-cbe8a8e9533a.place-top {
+  	.t582701c2-59f5-452a-97e7-f088bfd2da8b.place-top {
         margin-top: -10px;
     }
-    .tfd0fc729-751a-4176-85d6-cbe8a8e9533a.place-top::before {
+    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-top::before {
         border-top: 8px solid transparent;
     }
-    .tfd0fc729-751a-4176-85d6-cbe8a8e9533a.place-top::after {
+    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -211,13 +231,13 @@ data-styled.g26[id="sc-global-geSxMa1"]{content:"sc-global-geSxMa1,"}/*!sc*/
         border-top-width: 6px;
     }
 
-    .tfd0fc729-751a-4176-85d6-cbe8a8e9533a.place-bottom {
+    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-bottom {
         margin-top: 10px;
     }
-    .tfd0fc729-751a-4176-85d6-cbe8a8e9533a.place-bottom::before {
+    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .tfd0fc729-751a-4176-85d6-cbe8a8e9533a.place-bottom::after {
+    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -228,13 +248,13 @@ data-styled.g26[id="sc-global-geSxMa1"]{content:"sc-global-geSxMa1,"}/*!sc*/
         border-bottom-width: 6px;
     }
 
-    .tfd0fc729-751a-4176-85d6-cbe8a8e9533a.place-left {
+    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-left {
         margin-left: -10px;
     }
-    .tfd0fc729-751a-4176-85d6-cbe8a8e9533a.place-left::before {
+    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-left::before {
         border-left: 8px solid transparent;
     }
-    .tfd0fc729-751a-4176-85d6-cbe8a8e9533a.place-left::after {
+    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -245,13 +265,93 @@ data-styled.g26[id="sc-global-geSxMa1"]{content:"sc-global-geSxMa1,"}/*!sc*/
         border-left-width: 6px;
     }
 
-    .tfd0fc729-751a-4176-85d6-cbe8a8e9533a.place-right {
+    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-right {
         margin-left: 10px;
     }
-    .tfd0fc729-751a-4176-85d6-cbe8a8e9533a.place-right::before {
+    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-right::before {
         border-right: 8px solid transparent;
     }
-    .tfd0fc729-751a-4176-85d6-cbe8a8e9533a.place-right::after {
+    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style><span>This Post Was Pinned!</span></div><span class="Date-lu8tvw-0 gDspQD">August 22, 2020</span><p class="P-sc-1gf8sjw-0 jotnOU"> This project is meant to give you a practical example of what you can do with IoT skills. We will…</p><a class="ContinueReading-sc-1enmb1t-0 dDLOTN" href="/tutorials/esp32-thingspeak-wm/">Continue Reading →</a></div></div><div class="Card-sc-1kworww-0 fKQpzi"><div class="Wrapper-yoi3x6-0 dVizpi"><a class="Link-z1bs02-0 hipbRb" href="/blogs/all-about-iot/"><div class="Wrapper-sc-16m3ic3-0 hIagJF"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden"><div aria-hidden="true" style="width:100%;padding-bottom:52.631578947368425%"></div><img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAADBklEQVQozx2S7U+bVRjGT5/2eWuftjyDbb6OubkAY2sLhXVQXAtjjLoyRF5KkUJfGK+jIK+VlhTjMhNNHBoTnYoaYtQPxiWLTr8sxvhBYzSamCwa/5ifJ344yblPrlz3777uI0TiffT8fdTsPRzZBygLP+JY/gWx8hti8y/E1iOUnb/Rqv/iqvyDsv0IsfYn6ubvOG/+hMh+j5K9jzbzLWLgQ4Qeu4V3/FO00UOMyS9QJ79Enf4ac/UH2eAbRP4hZvkP6l79Fbv8M87Cd4j0PYz5B7gXH+IaOsQa+4Sjuc9R4m8gtLaXsZ4rYfS+hTX4DvaL++jX3kVPf4V6/S7G4F3szGfUZT5GTx2iydpI3EFNvI2ZkPr0Ae6hD3CeX8URLErD0CK+K1WcgQUcoRXMzhJm/77s9ibOjjJP9e9id1ewe/eojW+hdu1hJD/iaPYAT6yM2nITravMkdH3UJpmEGpjBu1cHi0wx/HUPtalPSkq4o6s8sSFAi39y7QnluhILhOS97rIAlrrGmq4iN68JPW7eC6uyIYllFMTCFfTrDRbRGucxO7Zxh+YQpwYJxidoDOeInI5R7Q3T6xnnPbLBSKxFKGLwxgSwh9dx+rcwHkqjbejiPO0NFTqx6np2qD20hau48/jPjmCp30TsymDePwFzrSmCPdNEZaETzcPI05msJ5N45PZ1/aVMc9No8m6pvsVnA1z0rAhLekmcJ/NUNu1jCc4i+PEGHZfhScn7yAeG8QXWcErSbSGCfTQElrzDdT6MfTADfTGPMbpYfSzU7jOFxAimEU0vvT/sQeq+OMlOUIKtwzaH1/DUT+E2r6DEa3yTHIDo20OMzCN3TyCL7Yqp1tHCy1wbP4A/0BFEsrMrP4Knt5dfN1FjHAWX3QeKzKL0TqDGcpxpDWDuyWH1bOD79prUlPA3bkkN3ubY+nbGLF1akZfx7qyhXCcGcHbI/9iXwmrWxIFc3ivlqi5XsGbvIXSMou3TRqGp+W4GVRJqAWnMGTm3mQV39VtufEZ9AsyBvn+H1LtiTuXlOg5AAAAAElFTkSuQmCC" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/de4b985ca18c5c8357a44de463aedd88/975bf/featuredImage.webp 225w,
+/static/de4b985ca18c5c8357a44de463aedd88/b8a88/featuredImage.webp 450w,
+/static/de4b985ca18c5c8357a44de463aedd88/ed107/featuredImage.webp 810w" sizes="(max-width: 810px) 100vw, 810px" /><source srcset="/static/de4b985ca18c5c8357a44de463aedd88/7e7e9/featuredImage.png 225w,
+/static/de4b985ca18c5c8357a44de463aedd88/62b1f/featuredImage.png 450w,
+/static/de4b985ca18c5c8357a44de463aedd88/00519/featuredImage.png 810w" sizes="(max-width: 810px) 100vw, 810px" /><img loading="lazy" sizes="(max-width: 810px) 100vw, 810px" srcset="/static/de4b985ca18c5c8357a44de463aedd88/7e7e9/featuredImage.png 225w,
+/static/de4b985ca18c5c8357a44de463aedd88/62b1f/featuredImage.png 450w,
+/static/de4b985ca18c5c8357a44de463aedd88/00519/featuredImage.png 810w" src="/static/de4b985ca18c5c8357a44de463aedd88/00519/featuredImage.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div></a><h1 class="H1-sc-1kzbinp-0 BQjCe"><a class="Link-z1bs02-0 hipbRb" href="/blogs/all-about-iot/">All About IoT</a></h1><div class="__react_component_tooltip t812a76a1-c274-4d6d-8892-5931a02c97c3 place-top type-dark" id="pinDesc" data-id="tooltip"><style>
+  	.t812a76a1-c274-4d6d-8892-5931a02c97c3 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t812a76a1-c274-4d6d-8892-5931a02c97c3.place-top {
+        margin-top: -10px;
+    }
+    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-bottom {
+        margin-top: 10px;
+    }
+    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-left {
+        margin-left: -10px;
+    }
+    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-right {
+        margin-left: 10px;
+    }
+    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -277,4 +377,4 @@ data-styled.g26[id="sc-global-geSxMa1"]{content:"sc-global-geSxMa1,"}/*!sc*/
       
       
       
-      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-4b0a4e08724db4a3f233.js"],"app":["/app-ef848a445126025d4c58.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-7e7cddb635a4a7d850b9.js"],"component---src-pages-404-js":["/component---src-pages-404-js-c01aa8fe61566494f9ea.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-5f20e8db42f387f20ef2.js"],"component---src-templates-index-js":["/component---src-templates-index-js-fd7d8d6080bf18f955ce.js"]};/*]]>*/</script><script src="/polyfill-4b0a4e08724db4a3f233.js" nomodule=""></script><script src="/component---src-templates-index-js-fd7d8d6080bf18f955ce.js" async=""></script><script src="/2ca085fac04eec258979fa96688fdd6e5c5ad72a-b6a8ac086d70f73e3826.js" async=""></script><script src="/d8c6fceef6035ce68615adfef14ec1b550203772-75e79fd7218a542d78ff.js" async=""></script><script src="/styles-2d82ac8e3afc0c213061.js" async=""></script><script src="/app-ef848a445126025d4c58.js" async=""></script><script src="/webpack-runtime-46a9236153d1601c14fd.js" async=""></script></body></html>
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-4b0a4e08724db4a3f233.js"],"app":["/app-1cc1d6fe3da368d025c9.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-7e7cddb635a4a7d850b9.js"],"component---src-pages-404-js":["/component---src-pages-404-js-c01aa8fe61566494f9ea.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-5f20e8db42f387f20ef2.js"],"component---src-templates-index-js":["/component---src-templates-index-js-d4c0a7a9fd6f93597175.js"]};/*]]>*/</script><script src="/polyfill-4b0a4e08724db4a3f233.js" nomodule=""></script><script src="/component---src-templates-index-js-d4c0a7a9fd6f93597175.js" async=""></script><script src="/2ca085fac04eec258979fa96688fdd6e5c5ad72a-742658f041075f730407.js" async=""></script><script src="/d8c6fceef6035ce68615adfef14ec1b550203772-75e79fd7218a542d78ff.js" async=""></script><script src="/styles-2d82ac8e3afc0c213061.js" async=""></script><script src="/app-1cc1d6fe3da368d025c9.js" async=""></script><script src="/webpack-runtime-0941a0d9fe899eaf48a5.js" async=""></script></body></html>
