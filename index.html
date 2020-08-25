@@ -82,24 +82,27 @@ template{display:none;}/*!sc*/
 html{font-size:62.5%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;box-sizing:border-box;}/*!sc*/
 body{background:#f8fafc;font-family:'Open Sans',sans-serif;line-height:1.5;padding:50px 0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}/*!sc*/
 img{max-width:100%;}/*!sc*/
-.categories-bar{position:fixed;top:200px;left:125px;}/*!sc*/
+.categories-bar{position:fixed;top:200px;left:calc(((((100vw - 870px) / 2) - 150px) / 3) + 15px);max-width:min(calc((100vw - 870px) / 2 - 50px),200px);max-height:40vh;overflow-x:hidden;text-overflow:ellipsis;}/*!sc*/
+.categories-bar.show-progress > div{position:relative;}/*!sc*/
+.categories-bar.show-progress > div::before{content:"";position:absolute;border-left:3px solid black;height:94.5%;left:2px;top:50%;opacity:0.3;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);}/*!sc*/
 .categories-bar > a:first-of-type{display:inline-block;}/*!sc*/
 .categories-bar .same-line{display:inline-block;margin-bottom:3px;}/*!sc*/
 .categories-bar .same-line *{display:inline;}/*!sc*/
 .categories-bar .title{font-size:25px;color:#000;font-weight:700;-webkit-letter-spacing:-0.01em;-moz-letter-spacing:-0.01em;-ms-letter-spacing:-0.01em;letter-spacing:-0.01em;}/*!sc*/
-.categories-bar .sub-title{font-size:14px;font-weight:700;color:#333333;word-spacing:-1px;-webkit-letter-spacing:-0.03em;-moz-letter-spacing:-0.03em;-ms-letter-spacing:-0.03em;letter-spacing:-0.03em;}/*!sc*/
+.categories-bar .sub-title{font-size:14px;font-weight:700;color:#333333;word-spacing:1px;-webkit-letter-spacing:-0.06em;-moz-letter-spacing:-0.06em;-ms-letter-spacing:-0.06em;letter-spacing:-0.06em;}/*!sc*/
 .categories-bar .category-wrap{position:relative;padding:5px 12px;}/*!sc*/
 .categories-bar .category-wrap a{-webkit-text-decoration:none;text-decoration:none;}/*!sc*/
-.categories-bar .category-wrap a .sub-links{font-size:16px;font-weight:700;opacity:0.45;-webkit-transition:opacity 100ms ease;transition:opacity 100ms ease;color:#000;}/*!sc*/
-.categories-bar .category-wrap::before{content:"";position:absolute;border-left:3px solid black;-webkit-transition:opacity 100ms ease;transition:opacity 100ms ease;height:75%;left:2px;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);opacity:0;-webkit-transition:opacity 100ms ease;transition:opacity 100ms ease;}/*!sc*/
+.categories-bar .category-wrap a .sub-links{font-size:16px;font-weight:700;opacity:0.3;-webkit-transition:opacity 100ms ease;transition:opacity 100ms ease;color:#000;white-space:nowrap;overflow-x:hidden;text-overflow:ellipsis;}/*!sc*/
+.categories-bar .category-wrap::before{content:"";position:absolute;border-left:3px solid black;-webkit-transition:opacity 100ms ease;transition:opacity 100ms ease;height:75%;left:2px;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);opacity:0;}/*!sc*/
+.categories-bar .category-wrap:hover{cursor:pointer;}/*!sc*/
 .categories-bar .category-wrap[data-is-current] .sub-links,.categories-bar .category-wrap:hover .sub-links{opacity:1;-webkit-transition:opacity 100ms ease;transition:opacity 100ms ease;}/*!sc*/
 .categories-bar .category-wrap[data-is-current]::before,.categories-bar .category-wrap:hover::before{opacity:1;-webkit-transition:opacity 100ms ease;transition:opacity 100ms ease;}/*!sc*/
 .gatsby-highlight{border-bottom:1px solid #e0e6ed;border-top:1px solid #e0e6ed;margin:15px -90px;padding:0;}/*!sc*/
 .gatsby-highlight pre[class*="language-"]{margin:0;padding:25px 140px 27px 140px;}/*!sc*/
 pre[class*="language-"]{background:rgba(245,245,245,1);color:rgb(65,76,94);}/*!sc*/
 @media only screen and (max-width:870px){body{padding:15px 0;}.categories-bar{position:fixed;opacity:0.25;background:#f9fafc;border:1px solid black;}.gatsby-highlight{margin:15px -15px;}.gatsby-highlight pre[class*="language-"]{padding:25px;}}/*!sc*/
-data-styled.g26[id="sc-global-eGHoxY1"]{content:"sc-global-eGHoxY1,"}/*!sc*/
-</style><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link rel="alternate" type="application/rss+xml" title="Your Site&#x27;s RSS Feed" href="/rss.xml"/><title data-react-helmet="true">TinoIoT</title><meta data-react-helmet="true" name="description" content="TinoIoT | Welcome Everyone!"/><link as="script" rel="preload" href="/webpack-runtime-0941a0d9fe899eaf48a5.js"/><link as="script" rel="preload" href="/app-1cc1d6fe3da368d025c9.js"/><link as="script" rel="preload" href="/styles-2d82ac8e3afc0c213061.js"/><link as="script" rel="preload" href="/d8c6fceef6035ce68615adfef14ec1b550203772-75e79fd7218a542d78ff.js"/><link as="script" rel="preload" href="/2ca085fac04eec258979fa96688fdd6e5c5ad72a-742658f041075f730407.js"/><link as="script" rel="preload" href="/component---src-templates-index-js-d4c0a7a9fd6f93597175.js"/><link as="fetch" rel="preload" href="/page-data\index\page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2051429651.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data\app-data.json" crossorigin="anonymous"/><link rel="shortcut icon" href="/static/favicon-d24f6d41f0d6f454f5b414b561e64dee.ico"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div><section class="Container-sc-1athbsu-0 lgWaYF"><header class="Wrapper-aooi4p-0 iRFTCQ"><div class="Wrapper-sc-5runh9-0 bvHsaw"><a aria-current="page" class="" href="/"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:320px;height:320px"><img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAADAUlEQVQ4y81UW08TURDuv/EFn/0J+qRoiFEjkSioCFIKVCGaoFG8oDESSdB4QRLERCEKKmI0BFEiyKUFW0oBwYKgpZft9rbd7eVz5rSLC08+8ODD7M65zHdmvm/OMVVPBbGVZvr/AasmA8KxbrKa3J/X9D3/nGElBRwf9+PEhB8nyUrIL7MFhG+2BwS40fQD9LHxUBODXZiW8MEbR9/vOHpWY/joU/BgMYJX5De6Qzhl86OCgPl/2h5YByilMc/pYPw3cQaXXSF8CSSwlkghnclgKqSiYymKYZq7NSvj6kwITXMy2jwRNM+HBThn9oT2tNMcg1n0DPXaD3/14eVKDCvxJIrHs6d6YkncJMDRYAKylhYHJVIZ1FNFNknFQjSJRbIJ8s25zEmULPmlxFfvrzhWlZTgtO5bENFkGrcpMw4YWFNEUITmWn9EoKYzYk+9UxJVMW28bsoqzKL48J44lNSUWKilzRoFcalOWcOQPyHKzGSyc16ip5sqekNJ+Mi36hzyx+qQUeEI4/FyHAMBTWTIhwySOA3E7wsKbPdEBU8jxOtFyubeQliUPB/RhL/OodUVRUmfHQUtz1HUPYLCriGYx72oc4UpWME1UplbigPOOSQUjfpEySHiVFKzxj7PcauZzs4qONI5iB0lVdjf8gwFzR042jMC67AHGYBUDuEGgS6RQFzmO6LlDNFxnsDdYQ0zZHxQnSNXcvWUBIttDXl7DqL49Rh2X7+PXQ0tKOsdQ4wBCYyV7CdRuFTmlVuHM50k1VkwrmD9plhsPtTOa9h75ym27cxHUdcnHGh7C3P/NOIE2DQXEq3U9TOGchJLobZ5SE1/bMwPh6wKUG7uGuPVs9gZVEXB3U5szz+EvH2FKGztgUKAja4gHhE/flJ/mYC5FzmYQey5DDcA6tdGZPpdg9UZRtnnBVgmvLjilkX7lBPZl0ht7kkWh43jmAI2i+HxEIBGUPZrnDKYW+5HMaY19svtG18dbq9Kwz3OifJ3YPSNT5bxddm8f/PztuUP7B9qTB457BZfgQAAAABJRU5ErkJggg==" alt="IoT Logo" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source srcset="/static/81c1f7e9f26b7789cb721a06622fb5c1/b8abe/main.png 1x,
+data-styled.g26[id="sc-global-ktlVHb1"]{content:"sc-global-ktlVHb1,"}/*!sc*/
+</style><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link rel="alternate" type="application/rss+xml" title="Your Site&#x27;s RSS Feed" href="/rss.xml"/><title data-react-helmet="true">TinoIoT</title><meta data-react-helmet="true" name="description" content="TinoIoT | Welcome Everyone!"/><link as="script" rel="preload" href="/webpack-runtime-a4770b5e674938559b49.js"/><link as="script" rel="preload" href="/app-efd384929d8ad3c04c6e.js"/><link as="script" rel="preload" href="/styles-8d3db5124725dcff78a7.js"/><link as="script" rel="preload" href="/025b79e5-3c36d80647aa37b177dc.js"/><link as="script" rel="preload" href="/d8c6fceef6035ce68615adfef14ec1b550203772-75e79fd7218a542d78ff.js"/><link as="script" rel="preload" href="/2ca085fac04eec258979fa96688fdd6e5c5ad72a-333e44e800a2795b3deb.js"/><link as="script" rel="preload" href="/component---src-templates-index-js-233d35795700a67bac3f.js"/><link as="fetch" rel="preload" href="/page-data\index\page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2051429651.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data\app-data.json" crossorigin="anonymous"/><link rel="shortcut icon" href="/static/favicon-d24f6d41f0d6f454f5b414b561e64dee.ico"/><script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous"></script></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div><section class="Container-sc-1athbsu-0 lgWaYF"><header class="Wrapper-aooi4p-0 iRFTCQ"><div class="Wrapper-sc-5runh9-0 bvHsaw"><a aria-current="page" class="" href="/"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:320px;height:320px"><img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAADAUlEQVQ4y81UW08TURDuv/EFn/0J+qRoiFEjkSioCFIKVCGaoFG8oDESSdB4QRLERCEKKmI0BFEiyKUFW0oBwYKgpZft9rbd7eVz5rSLC08+8ODD7M65zHdmvm/OMVVPBbGVZvr/AasmA8KxbrKa3J/X9D3/nGElBRwf9+PEhB8nyUrIL7MFhG+2BwS40fQD9LHxUBODXZiW8MEbR9/vOHpWY/joU/BgMYJX5De6Qzhl86OCgPl/2h5YByilMc/pYPw3cQaXXSF8CSSwlkghnclgKqSiYymKYZq7NSvj6kwITXMy2jwRNM+HBThn9oT2tNMcg1n0DPXaD3/14eVKDCvxJIrHs6d6YkncJMDRYAKylhYHJVIZ1FNFNknFQjSJRbIJ8s25zEmULPmlxFfvrzhWlZTgtO5bENFkGrcpMw4YWFNEUITmWn9EoKYzYk+9UxJVMW28bsoqzKL48J44lNSUWKilzRoFcalOWcOQPyHKzGSyc16ip5sqekNJ+Mi36hzyx+qQUeEI4/FyHAMBTWTIhwySOA3E7wsKbPdEBU8jxOtFyubeQliUPB/RhL/OodUVRUmfHQUtz1HUPYLCriGYx72oc4UpWME1UplbigPOOSQUjfpEySHiVFKzxj7PcauZzs4qONI5iB0lVdjf8gwFzR042jMC67AHGYBUDuEGgS6RQFzmO6LlDNFxnsDdYQ0zZHxQnSNXcvWUBIttDXl7DqL49Rh2X7+PXQ0tKOsdQ4wBCYyV7CdRuFTmlVuHM50k1VkwrmD9plhsPtTOa9h75ym27cxHUdcnHGh7C3P/NOIE2DQXEq3U9TOGchJLobZ5SE1/bMwPh6wKUG7uGuPVs9gZVEXB3U5szz+EvH2FKGztgUKAja4gHhE/flJ/mYC5FzmYQey5DDcA6tdGZPpdg9UZRtnnBVgmvLjilkX7lBPZl0ht7kkWh43jmAI2i+HxEIBGUPZrnDKYW+5HMaY19svtG18dbq9Kwz3OifJ3YPSNT5bxddm8f/PztuUP7B9qTB457BZfgQAAAABJRU5ErkJggg==" alt="IoT Logo" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source srcset="/static/81c1f7e9f26b7789cb721a06622fb5c1/b8abe/main.png 1x,
 /static/81c1f7e9f26b7789cb721a06622fb5c1/0ed41/main.png 1.5x,
 /static/81c1f7e9f26b7789cb721a06622fb5c1/a7149/main.png 2x" /><img loading="lazy" width="320" height="320" srcset="/static/81c1f7e9f26b7789cb721a06622fb5c1/b8abe/main.png 1x,
 /static/81c1f7e9f26b7789cb721a06622fb5c1/0ed41/main.png 1.5x,
@@ -118,20 +121,20 @@ data-styled.g26[id="sc-global-eGHoxY1"]{content:"sc-global-eGHoxY1,"}/*!sc*/
 /static/cb58475fb36cea4bba85db52207c51a0/9842e/featured_img.jpg 900w,
 /static/cb58475fb36cea4bba85db52207c51a0/724e2/featured_img.jpg 1350w,
 /static/cb58475fb36cea4bba85db52207c51a0/52258/featured_img.jpg 1800w,
-/static/cb58475fb36cea4bba85db52207c51a0/cc4b4/featured_img.jpg 3348w" src="/static/cb58475fb36cea4bba85db52207c51a0/9842e/featured_img.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div></a><h1 class="H1-sc-1kzbinp-0 BQjCe"><a class="Link-z1bs02-0 hipbRb" href="/blogs/about-us/">About Us<svg data-tip="true" data-for="pinDesc" class="Pin-sc-2vzxcs-0 eHNfpT"><svg viewBox="0 0 489.493 489.493" class="pin"><path xmlns="http://www.w3.org/2000/svg" d="M485.322,117.705c12.204-12.238-3.274-47.577-34.636-78.93c-30.99-30.99-65.76-46.396-78.401-34.941l-0.246-0.236  l-173.715,156.02c-32.117-27.993-80.684-27.038-111.278,3.534c-5.149,5.157-8.051,12.146-8.051,19.437  c0,7.292,2.901,14.283,8.051,19.431l78.808,78.801L3.902,463.627c-5.148,5.799-5.262,14.655,0.015,20.601  c5.689,6.403,15.497,6.992,21.916,1.294l182.575-162.137l7.84,7.829l40.601,40.603l0,0l30.336,30.329  c5.15,5.147,12.139,8.039,19.424,8.039c7.278,0,14.272-2.898,19.419-8.056c30.561-30.573,31.524-79.158,3.539-111.27L484.771,118.03  C484.927,117.892,485.177,117.861,485.322,117.705z"></path></svg></svg></a></h1><div class="__react_component_tooltip teb3679fd-aa42-46ae-8de5-bf837a7d3a73 place-top type-dark" id="pinDesc" data-id="tooltip"><style>
-  	.teb3679fd-aa42-46ae-8de5-bf837a7d3a73 {
+/static/cb58475fb36cea4bba85db52207c51a0/cc4b4/featured_img.jpg 3348w" src="/static/cb58475fb36cea4bba85db52207c51a0/9842e/featured_img.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div></a><h1 class="H1-sc-1kzbinp-0 BQjCe"><a class="Link-z1bs02-0 hipbRb" href="/blogs/about-us/">About Us<svg data-tip="true" data-for="pinDesc" class="Pin-sc-2vzxcs-0 eHNfpT"><svg viewBox="0 0 489.493 489.493" class="pin"><path xmlns="http://www.w3.org/2000/svg" d="M485.322,117.705c12.204-12.238-3.274-47.577-34.636-78.93c-30.99-30.99-65.76-46.396-78.401-34.941l-0.246-0.236  l-173.715,156.02c-32.117-27.993-80.684-27.038-111.278,3.534c-5.149,5.157-8.051,12.146-8.051,19.437  c0,7.292,2.901,14.283,8.051,19.431l78.808,78.801L3.902,463.627c-5.148,5.799-5.262,14.655,0.015,20.601  c5.689,6.403,15.497,6.992,21.916,1.294l182.575-162.137l7.84,7.829l40.601,40.603l0,0l30.336,30.329  c5.15,5.147,12.139,8.039,19.424,8.039c7.278,0,14.272-2.898,19.419-8.056c30.561-30.573,31.524-79.158,3.539-111.27L484.771,118.03  C484.927,117.892,485.177,117.861,485.322,117.705z"></path></svg></svg></a></h1><div class="__react_component_tooltip t2050209f-8dee-4658-bc86-83d12095612c place-top type-dark" id="pinDesc" data-id="tooltip"><style>
+  	.t2050209f-8dee-4658-bc86-83d12095612c {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-top {
+  	.t2050209f-8dee-4658-bc86-83d12095612c.place-top {
         margin-top: -10px;
     }
-    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-top::before {
+    .t2050209f-8dee-4658-bc86-83d12095612c.place-top::before {
         border-top: 8px solid transparent;
     }
-    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-top::after {
+    .t2050209f-8dee-4658-bc86-83d12095612c.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -142,13 +145,13 @@ data-styled.g26[id="sc-global-eGHoxY1"]{content:"sc-global-eGHoxY1,"}/*!sc*/
         border-top-width: 6px;
     }
 
-    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-bottom {
+    .t2050209f-8dee-4658-bc86-83d12095612c.place-bottom {
         margin-top: 10px;
     }
-    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-bottom::before {
+    .t2050209f-8dee-4658-bc86-83d12095612c.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-bottom::after {
+    .t2050209f-8dee-4658-bc86-83d12095612c.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -159,13 +162,13 @@ data-styled.g26[id="sc-global-eGHoxY1"]{content:"sc-global-eGHoxY1,"}/*!sc*/
         border-bottom-width: 6px;
     }
 
-    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-left {
+    .t2050209f-8dee-4658-bc86-83d12095612c.place-left {
         margin-left: -10px;
     }
-    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-left::before {
+    .t2050209f-8dee-4658-bc86-83d12095612c.place-left::before {
         border-left: 8px solid transparent;
     }
-    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-left::after {
+    .t2050209f-8dee-4658-bc86-83d12095612c.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -176,13 +179,13 @@ data-styled.g26[id="sc-global-eGHoxY1"]{content:"sc-global-eGHoxY1,"}/*!sc*/
         border-left-width: 6px;
     }
 
-    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-right {
+    .t2050209f-8dee-4658-bc86-83d12095612c.place-right {
         margin-left: 10px;
     }
-    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-right::before {
+    .t2050209f-8dee-4658-bc86-83d12095612c.place-right::before {
         border-right: 8px solid transparent;
     }
-    .teb3679fd-aa42-46ae-8de5-bf837a7d3a73.place-right::after {
+    .t2050209f-8dee-4658-bc86-83d12095612c.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -207,20 +210,20 @@ data-styled.g26[id="sc-global-eGHoxY1"]{content:"sc-global-eGHoxY1,"}/*!sc*/
 /static/94ca67d6860306e7484202df2a48c0ff/9842e/mainpic.jpg 900w,
 /static/94ca67d6860306e7484202df2a48c0ff/724e2/mainpic.jpg 1350w,
 /static/94ca67d6860306e7484202df2a48c0ff/52258/mainpic.jpg 1800w,
-/static/94ca67d6860306e7484202df2a48c0ff/10a43/mainpic.jpg 4032w" src="/static/94ca67d6860306e7484202df2a48c0ff/9842e/mainpic.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div></a><h1 class="H1-sc-1kzbinp-0 BQjCe"><a class="Link-z1bs02-0 hipbRb" href="/tutorials/esp32-thingspeak-wm/">Sending Sensor Data to ThingSpeak</a></h1><div class="__react_component_tooltip t582701c2-59f5-452a-97e7-f088bfd2da8b place-top type-dark" id="pinDesc" data-id="tooltip"><style>
-  	.t582701c2-59f5-452a-97e7-f088bfd2da8b {
+/static/94ca67d6860306e7484202df2a48c0ff/10a43/mainpic.jpg 4032w" src="/static/94ca67d6860306e7484202df2a48c0ff/9842e/mainpic.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div></a><h1 class="H1-sc-1kzbinp-0 BQjCe"><a class="Link-z1bs02-0 hipbRb" href="/tutorials/esp32-thingspeak-wm/">Sending Sensor Data to ThingSpeak</a></h1><div class="__react_component_tooltip t567c856e-de84-4603-b54a-92cf75cdf4f8 place-top type-dark" id="pinDesc" data-id="tooltip"><style>
+  	.t567c856e-de84-4603-b54a-92cf75cdf4f8 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t582701c2-59f5-452a-97e7-f088bfd2da8b.place-top {
+  	.t567c856e-de84-4603-b54a-92cf75cdf4f8.place-top {
         margin-top: -10px;
     }
-    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-top::before {
+    .t567c856e-de84-4603-b54a-92cf75cdf4f8.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-top::after {
+    .t567c856e-de84-4603-b54a-92cf75cdf4f8.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -231,13 +234,13 @@ data-styled.g26[id="sc-global-eGHoxY1"]{content:"sc-global-eGHoxY1,"}/*!sc*/
         border-top-width: 6px;
     }
 
-    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-bottom {
+    .t567c856e-de84-4603-b54a-92cf75cdf4f8.place-bottom {
         margin-top: 10px;
     }
-    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-bottom::before {
+    .t567c856e-de84-4603-b54a-92cf75cdf4f8.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-bottom::after {
+    .t567c856e-de84-4603-b54a-92cf75cdf4f8.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -248,13 +251,13 @@ data-styled.g26[id="sc-global-eGHoxY1"]{content:"sc-global-eGHoxY1,"}/*!sc*/
         border-bottom-width: 6px;
     }
 
-    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-left {
+    .t567c856e-de84-4603-b54a-92cf75cdf4f8.place-left {
         margin-left: -10px;
     }
-    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-left::before {
+    .t567c856e-de84-4603-b54a-92cf75cdf4f8.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-left::after {
+    .t567c856e-de84-4603-b54a-92cf75cdf4f8.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -265,13 +268,13 @@ data-styled.g26[id="sc-global-eGHoxY1"]{content:"sc-global-eGHoxY1,"}/*!sc*/
         border-left-width: 6px;
     }
 
-    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-right {
+    .t567c856e-de84-4603-b54a-92cf75cdf4f8.place-right {
         margin-left: 10px;
     }
-    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-right::before {
+    .t567c856e-de84-4603-b54a-92cf75cdf4f8.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t582701c2-59f5-452a-97e7-f088bfd2da8b.place-right::after {
+    .t567c856e-de84-4603-b54a-92cf75cdf4f8.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -287,20 +290,20 @@ data-styled.g26[id="sc-global-eGHoxY1"]{content:"sc-global-eGHoxY1,"}/*!sc*/
 /static/de4b985ca18c5c8357a44de463aedd88/62b1f/featuredImage.png 450w,
 /static/de4b985ca18c5c8357a44de463aedd88/00519/featuredImage.png 810w" sizes="(max-width: 810px) 100vw, 810px" /><img loading="lazy" sizes="(max-width: 810px) 100vw, 810px" srcset="/static/de4b985ca18c5c8357a44de463aedd88/7e7e9/featuredImage.png 225w,
 /static/de4b985ca18c5c8357a44de463aedd88/62b1f/featuredImage.png 450w,
-/static/de4b985ca18c5c8357a44de463aedd88/00519/featuredImage.png 810w" src="/static/de4b985ca18c5c8357a44de463aedd88/00519/featuredImage.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div></a><h1 class="H1-sc-1kzbinp-0 BQjCe"><a class="Link-z1bs02-0 hipbRb" href="/blogs/all-about-iot/">All About IoT</a></h1><div class="__react_component_tooltip t812a76a1-c274-4d6d-8892-5931a02c97c3 place-top type-dark" id="pinDesc" data-id="tooltip"><style>
-  	.t812a76a1-c274-4d6d-8892-5931a02c97c3 {
+/static/de4b985ca18c5c8357a44de463aedd88/00519/featuredImage.png 810w" src="/static/de4b985ca18c5c8357a44de463aedd88/00519/featuredImage.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div></a><h1 class="H1-sc-1kzbinp-0 BQjCe"><a class="Link-z1bs02-0 hipbRb" href="/blogs/all-about-iot/">All About IoT</a></h1><div class="__react_component_tooltip t23f82956-d630-4c7d-8288-e7a656e87d25 place-top type-dark" id="pinDesc" data-id="tooltip"><style>
+  	.t23f82956-d630-4c7d-8288-e7a656e87d25 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t812a76a1-c274-4d6d-8892-5931a02c97c3.place-top {
+  	.t23f82956-d630-4c7d-8288-e7a656e87d25.place-top {
         margin-top: -10px;
     }
-    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-top::before {
+    .t23f82956-d630-4c7d-8288-e7a656e87d25.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-top::after {
+    .t23f82956-d630-4c7d-8288-e7a656e87d25.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -311,13 +314,13 @@ data-styled.g26[id="sc-global-eGHoxY1"]{content:"sc-global-eGHoxY1,"}/*!sc*/
         border-top-width: 6px;
     }
 
-    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-bottom {
+    .t23f82956-d630-4c7d-8288-e7a656e87d25.place-bottom {
         margin-top: 10px;
     }
-    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-bottom::before {
+    .t23f82956-d630-4c7d-8288-e7a656e87d25.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-bottom::after {
+    .t23f82956-d630-4c7d-8288-e7a656e87d25.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -328,13 +331,13 @@ data-styled.g26[id="sc-global-eGHoxY1"]{content:"sc-global-eGHoxY1,"}/*!sc*/
         border-bottom-width: 6px;
     }
 
-    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-left {
+    .t23f82956-d630-4c7d-8288-e7a656e87d25.place-left {
         margin-left: -10px;
     }
-    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-left::before {
+    .t23f82956-d630-4c7d-8288-e7a656e87d25.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-left::after {
+    .t23f82956-d630-4c7d-8288-e7a656e87d25.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -345,13 +348,13 @@ data-styled.g26[id="sc-global-eGHoxY1"]{content:"sc-global-eGHoxY1,"}/*!sc*/
         border-left-width: 6px;
     }
 
-    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-right {
+    .t23f82956-d630-4c7d-8288-e7a656e87d25.place-right {
         margin-left: 10px;
     }
-    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-right::before {
+    .t23f82956-d630-4c7d-8288-e7a656e87d25.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t812a76a1-c274-4d6d-8892-5931a02c97c3.place-right::after {
+    .t23f82956-d630-4c7d-8288-e7a656e87d25.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -377,4 +380,4 @@ data-styled.g26[id="sc-global-eGHoxY1"]{content:"sc-global-eGHoxY1,"}/*!sc*/
       
       
       
-      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-4b0a4e08724db4a3f233.js"],"app":["/app-1cc1d6fe3da368d025c9.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-7e7cddb635a4a7d850b9.js"],"component---src-pages-404-js":["/component---src-pages-404-js-c01aa8fe61566494f9ea.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-5f20e8db42f387f20ef2.js"],"component---src-templates-index-js":["/component---src-templates-index-js-d4c0a7a9fd6f93597175.js"]};/*]]>*/</script><script src="/polyfill-4b0a4e08724db4a3f233.js" nomodule=""></script><script src="/component---src-templates-index-js-d4c0a7a9fd6f93597175.js" async=""></script><script src="/2ca085fac04eec258979fa96688fdd6e5c5ad72a-742658f041075f730407.js" async=""></script><script src="/d8c6fceef6035ce68615adfef14ec1b550203772-75e79fd7218a542d78ff.js" async=""></script><script src="/styles-2d82ac8e3afc0c213061.js" async=""></script><script src="/app-1cc1d6fe3da368d025c9.js" async=""></script><script src="/webpack-runtime-0941a0d9fe899eaf48a5.js" async=""></script></body></html>
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-6eef2b5200577da5f9c2.js"],"app":["/app-efd384929d8ad3c04c6e.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-7e7cddb635a4a7d850b9.js"],"component---src-pages-404-js":["/component---src-pages-404-js-c01aa8fe61566494f9ea.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-f470f834fea9145a2717.js"],"component---src-templates-index-js":["/component---src-templates-index-js-233d35795700a67bac3f.js"]};/*]]>*/</script><script src="/polyfill-6eef2b5200577da5f9c2.js" nomodule=""></script><script src="/component---src-templates-index-js-233d35795700a67bac3f.js" async=""></script><script src="/2ca085fac04eec258979fa96688fdd6e5c5ad72a-333e44e800a2795b3deb.js" async=""></script><script src="/d8c6fceef6035ce68615adfef14ec1b550203772-75e79fd7218a542d78ff.js" async=""></script><script src="/025b79e5-3c36d80647aa37b177dc.js" async=""></script><script src="/styles-8d3db5124725dcff78a7.js" async=""></script><script src="/app-efd384929d8ad3c04c6e.js" async=""></script><script src="/webpack-runtime-a4770b5e674938559b49.js" async=""></script></body></html>
