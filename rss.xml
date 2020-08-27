@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Your Site's RSS Feed]]></title><description><![CDATA[Welcome Everyone!]]></description><link>https://tinoiot.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 26 Aug 2020 01:17:02 GMT</lastBuildDate><item><title><![CDATA[All About IoT]]></title><description><![CDATA[ IoT, internet of things, refers to the billions of physical devices that are connected to each other via the internet…]]></description><link>https://tinoiot.com/blogs/all-about-iot/</link><guid isPermaLink="false">https://tinoiot.com/blogs/all-about-iot/</guid><pubDate>Sat, 22 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/static/de4b985ca18c5c8357a44de463aedd88/497c6/featuredImage.png&quot;/&gt;&lt;h2&gt;What is IoT?&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Your Site's RSS Feed]]></title><description><![CDATA[Welcome Everyone!]]></description><link>https://tinoiot.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 27 Aug 2020 00:37:15 GMT</lastBuildDate><item><title><![CDATA[All About IoT]]></title><description><![CDATA[ IoT, internet of things, refers to the billions of physical devices that are connected to each other via the internet…]]></description><link>https://tinoiot.com/blogs/all-about-iot/</link><guid isPermaLink="false">https://tinoiot.com/blogs/all-about-iot/</guid><pubDate>Sat, 22 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/static/de4b985ca18c5c8357a44de463aedd88/497c6/featuredImage.png&quot;/&gt;&lt;h2&gt;What is IoT?&lt;/h2&gt;
 &lt;p&gt;IoT, internet of things, refers to the billions of physical devices that are connected to each other via the internet and sharing data and other information. Thanks to the arrival of affordable computer chips and the commonality of wireless networks, it is more simple than ever to turn anything into a part of the IoT. By connecting these devices together, adding sensors and writing software to read and manipulate data, these devices are now becoming smarter than ever and are adding an aspect of digital intelligence to our daily lives. &lt;/p&gt;
 &lt;h2&gt;Examples of IoT&lt;/h2&gt;
 &lt;p&gt;&lt;span
@@ -171,7 +171,7 @@
 &lt;li&gt;&lt;a href=&quot;https://www.adafruit.com/product/2652&quot;&gt;Adafruit BME280&lt;/a&gt; - You could use any sensor you want you’ll just have to figure out how to interface with it on your own.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.adafruit.com/product/3591&quot;&gt;Adafruit HUZZAH32 – ESP32 Feather Board&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Multicolored-Breadboard-Dupont-Jumper-Wires/dp/B073X7P6N2&quot;&gt;Jumper Wires&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.amazon.com/DEYUE-breadboard-Set-Prototype-Board/dp/B07LFD4LT6/ref=sr_1_3?crid=1MRAUMDALD43Z&amp;#x26;dchild=1&amp;#x26;keywords=breadboard&amp;#x26;qid=1598139934&amp;#x26;s=electronics&amp;#x26;sprefix=bread%2Celectronics%2C213&amp;#x26;sr=1-3&quot;&gt;Bread board&lt;/a&gt; - Recommended for keeping things organized but not nessisary.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.amazon.com/DEYUE-breadboard-Set-Prototype-Board/dp/B07LFD4LT6/ref=sr_1_3?crid=1MRAUMDALD43Z&amp;#x26;dchild=1&amp;#x26;keywords=breadboard&amp;#x26;qid=1598139934&amp;#x26;s=electronics&amp;#x26;sprefix=bread%2Celectronics%2C213&amp;#x26;sr=1-3&quot;&gt;Bread board&lt;/a&gt; - Recommended for keeping things organized but not necessary.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.arduino.cc/en/main/software&quot;&gt;Arduino IDE&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;A few Arduino Libraries for connecting to the internet and simplifying using the bme280 (We will get to these later)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://thingspeak.com/&quot;&gt;ThingSpeak Account&lt;/a&gt; - It’s free for up to 4 channels which are plenty.&lt;/li&gt;
@@ -776,4 +776,177 @@ TinoIoT Exec Team  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Will
 &lt;p&gt;Here is my turkey code (dw if you cant figure it out rn cause its kinda complex):&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token function&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;document&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;ready&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;I like turkeys&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Sending Sensor Data to ThingSpeak (RasPi)]]></title><description><![CDATA[  This project is meant to give you a practical example of what you can do with IoT skills. We will…]]></description><link>https://tinoiot.com/pre-prods/bme280-rpi-wm/</link><guid isPermaLink="false">https://tinoiot.com/pre-prods/bme280-rpi-wm/</guid><pubDate>Wed, 12 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/static/d5ed5fc19cba131423df880b4947e723/2244e/mainpic.jpg&quot;/&gt;&lt;h2&gt;Sending Sensor Data to ThingSpeak (RasPi)&lt;/h2&gt;
+&lt;!-- end --&gt;
+&lt;h2&gt;What you will need:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.adafruit.com/product/2652&quot;&gt;Adafruit BME280&lt;/a&gt; - You could use any sensor you want, you’ll just have to figure out how to interface with it on your own.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.adafruit.com/product/4295?src=raspberrypi&quot;&gt;Raspberry Pi&lt;/a&gt; - I’ll be using a 4B, but you should be able to use any model you want with wifi.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Multicolored-Breadboard-Dupont-Jumper-Wires/dp/B073X7P6N2&quot;&gt;Dupont Cables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A few python modules for simplifying using the bme280 (We will get to this later)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://thingspeak.com/&quot;&gt;ThingSpeak Account&lt;/a&gt; - It’s free for up to 4 channels, which is plenty.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Project Overview&lt;/h2&gt;
+&lt;p&gt;This project is meant to give you a practical example of what you can do with IoT skills. We will be using the RasPi because it has a wifi chip and GPIO. We will use this connectivity to send an HTTP GET request to ThingSpeak periodically so we can chart the temperature wherever we decide to place our device.&lt;/p&gt;
+&lt;h2&gt;Setting up our RasPi&lt;/h2&gt;
+&lt;p&gt;Make sure you have python3 and pip set up first.&lt;/p&gt;
+&lt;p&gt;Next, we have to enable I2C on our RasPi. In your shell, run &lt;code class=&quot;language-text&quot;&gt;sudo raspi-config&lt;/code&gt; in the shell. Then select &lt;code class=&quot;language-text&quot;&gt;Interfacing Options&lt;/code&gt; &gt; &lt;code class=&quot;language-text&quot;&gt;I2C&lt;/code&gt; &gt; &lt;code class=&quot;language-text&quot;&gt;yes&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Now we are going to install some python modules. In your shell run &lt;code class=&quot;language-text&quot;&gt;pip3 install RPI.GPIO&lt;/code&gt; then &lt;code class=&quot;language-text&quot;&gt;pip3 install adafruit-blinka&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Wiring&lt;/h2&gt;
+&lt;p&gt;Connect the following pins with dupont cables (&lt;strong&gt;RasPi&lt;/strong&gt; to &lt;strong&gt;bme280&lt;/strong&gt;):
+&lt;strong&gt;3V&lt;/strong&gt; to &lt;strong&gt;VIN&lt;/strong&gt;
+&lt;strong&gt;3V&lt;/strong&gt; to &lt;strong&gt;CS&lt;/strong&gt;
+&lt;strong&gt;GND&lt;/strong&gt; to &lt;strong&gt;GND&lt;/strong&gt;
+&lt;strong&gt;SCL&lt;/strong&gt; to &lt;strong&gt;SCK&lt;/strong&gt;
+&lt;strong&gt;SDA&lt;/strong&gt; to &lt;strong&gt;SDI&lt;/strong&gt;
+&lt;em&gt;If your not sure, &lt;a href=&quot;https://pinout.xyz/pinout/pin5_gpio3&quot;&gt;here&lt;/a&gt; is the pinout for most RasPis.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;Reading the BME280&lt;/h2&gt;
+&lt;p&gt;Let’s verify that we have everything wired and set up correctly by attempting a read. Try out the following code:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; board&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; busio&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; adafruit_bme280
+
+i2c &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; busio&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;I2C&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;board&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;SCL&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; board&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;SDA&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+bme280 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; adafruit_bme280&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Adafruit_BME280_I2C&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;i2c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+bme280&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;sea_level_pressure &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1013.4&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;\nTemperature: %0.1f C&quot;&lt;/span&gt;  &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; bme280&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;temperature&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Humidity: %0.1f %%&quot;&lt;/span&gt;  &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; bme280&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;humidity&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Pressure: %0.1f hPa&quot;&lt;/span&gt;  &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; bme280&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;pressure&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Altitude = %0.2f meters&quot;&lt;/span&gt;  &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; bme280&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;altitude&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;When you run the code, you should see something like this in the shell:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Temperature: 23.1 C
+Humidity: 80.9 %
+Pressure: 1004.9 hPa
+Altitude = 70.90 meters&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Setting up ThingsSpeak&lt;/h2&gt;
+&lt;p&gt;First, create a ThingsSpeak account &lt;a href=&quot;https://thingspeak.com/&quot;&gt;here&lt;/a&gt;. Then go to the channels tab and click &lt;em&gt;Create New&lt;/em&gt;. Name the channel something like BME280 or Sensor Test, whatever you want. Check the boxes for four fields, and enter the names Temperature, Pressure, Altitude, Humidity. Ignore the rest of the text inputs and click &lt;em&gt;Save Channel&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Now that we have our channel set up, go to the &lt;em&gt;API Keys&lt;/em&gt; tab. Take note of the URL under &lt;em&gt;Write a Channel Feed&lt;/em&gt;. It should look something like &lt;code class=&quot;language-text&quot;&gt;https://api.thingspeak.com/update?api_key=&amp;lt;YOUR KEY&amp;gt;&amp;amp;field1=0&lt;/code&gt;. Your key is the most important part and is what will allow you to get to your thing speak channel.&lt;/p&gt;
+&lt;h2&gt;Sending Data to Thing Speak&lt;/h2&gt;
+&lt;p&gt;Now let’s try sending some data to each of our channels four fields. Try out this code. &lt;strong&gt;Make sure to replace “YOUR&lt;em&gt;WRITE&lt;/em&gt;KEY” with your own from ThingSpeak.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; requests
+
+queries &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;api_key&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;BF4REREY50DMPO0Z&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+               &lt;span class=&quot;token string&quot;&gt;&quot;field1&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+               &lt;span class=&quot;token string&quot;&gt;&quot;field2&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+               &lt;span class=&quot;token string&quot;&gt;&quot;field3&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+               &lt;span class=&quot;token string&quot;&gt;&quot;field4&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+r &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; requests&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;get&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;https://api.thingspeak.com/update&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; params&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;queries&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; r&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;status_code &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; requests&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;codes&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ok&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Data Received!&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Error Code: &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;r&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;status_code&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;When you run this, you should see one point of data in each of the four fields on ThingSpeak and &lt;code class=&quot;language-text&quot;&gt;Data Received!&lt;/code&gt; in your shell.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.25766871165644%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB7klEQVQ4y11Ty27UQBD0N/KIFHFAggDiEARX+AxekVAIEREX+AVIgA0BKR8AJAQuJEtIlrW9tseeR1Hdfu6u1Orpck3N9HRttPpyD9fXR1h6vI3LTVx69A5LT7Zx9dkHXHj4FgfjGEenCa6svce19Y+4yO9D7vLTHSyv7WB1aw9RkhVIiwozU+E8znB8NsUkzbUWPM4MrHOorEOSG8yEyxifxxhPEmKl1sIVrciUJfpfQPBe8xDzxDQo3MPkKHcAsY6mSaanhyAba8F6XYs4imhmpLyBcKQODbetJVtrEVWVhaeA83VkhUFhSsVYsl3fCbpmo/AET7NcL9NyKxHkvTH/G7Rr+RzBaXvBL/K0x36PcKkV/TyN8eNPjK/H/zS+nUzr4PrghNjvCfLSomAnh+MpDhuufP9OXr2Ha+Yjfovuv97HvVdfcHNjFyvPR1ihLSTferGLO1uf1SZimV9/U9ze/IS75CpPuSPcYBZc4sGbfbYc+la8s8jzYmF67ePPt2yMQclYfIJIhuDk4Zsp+2aqOnEZVld7HVjrhtZGvnGE4DrlGa0ggkoMrW3qAxYFxTZzvIHFOsHWrK1AzluI2YN6d2BqaVk5tadrX+Z6YGhwWdOHVX8KQ7zUmTnPYPlObXvD20p0HqaGy/gHYf4P1n7SB+tJOakAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/73b4ff80f100c4a4e115b159f8be4d58/94563/onepts.webp 163w,
+/static/73b4ff80f100c4a4e115b159f8be4d58/647a8/onepts.webp 325w,
+/static/73b4ff80f100c4a4e115b159f8be4d58/c1dc5/onepts.webp 650w,
+/static/73b4ff80f100c4a4e115b159f8be4d58/1e975/onepts.webp 975w,
+/static/73b4ff80f100c4a4e115b159f8be4d58/063bf/onepts.webp 1300w,
+/static/73b4ff80f100c4a4e115b159f8be4d58/dde0f/onepts.webp 1516w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/73b4ff80f100c4a4e115b159f8be4d58/222b7/onepts.png 163w,
+/static/73b4ff80f100c4a4e115b159f8be4d58/ff46a/onepts.png 325w,
+/static/73b4ff80f100c4a4e115b159f8be4d58/a6d36/onepts.png 650w,
+/static/73b4ff80f100c4a4e115b159f8be4d58/e548f/onepts.png 975w,
+/static/73b4ff80f100c4a4e115b159f8be4d58/3c492/onepts.png 1300w,
+/static/73b4ff80f100c4a4e115b159f8be4d58/a8a6f/onepts.png 1516w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/73b4ff80f100c4a4e115b159f8be4d58/a6d36/onepts.png&quot;
+          alt=&quot;What your channel should look like&quot;
+          title=&quot;What your channel should look like&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Right now we are just adding the values 1, 2, 3, and 4 to the chart. Let’s try to get our live sensor data in there now.&lt;/p&gt;
+&lt;h2&gt;Sending Live Data to ThingSpeak&lt;/h2&gt;
+&lt;p&gt;Now we will combine everything to finally get our data from the sensor and then send it to our ThingSpeak channel. You will probably want to clear your channel before you start getting real data. To clear it, go to Channel Settings and click Clear Channel at the bottom of the page. We are also using the python scheduler module, which will allow us to set an interval for polling data.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; board&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; busio&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; adafruit_bme280
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; requests
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; sched&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; time
+
+i2c &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; busio&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;I2C&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;board&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;SCL&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; board&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;SDA&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+bme280 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; adafruit_bme280&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Adafruit_BME280_I2C&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;i2c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+bme280&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;sea_level_pressure &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1013.4&lt;/span&gt;
+
+s &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; sched&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;scheduler&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;time&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;time&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; time&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;sleep&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+interval &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;60&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;read_and_send&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sc&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 
+    queries &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;api_key&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;BF4REREY50DMPO0Z&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+               &lt;span class=&quot;token string&quot;&gt;&quot;field1&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;bme280&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;temperature&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+               &lt;span class=&quot;token string&quot;&gt;&quot;field2&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;bme280&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;pressure&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+               &lt;span class=&quot;token string&quot;&gt;&quot;field3&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;bme280&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;altitude&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+               &lt;span class=&quot;token string&quot;&gt;&quot;field4&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;bme280&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;humidity&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    r &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; requests&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;get&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;https://api.thingspeak.com/update&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; params&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;queries&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; r&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;status_code &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; requests&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;codes&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ok&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Data Recived!&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Error Code: &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;r&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;status_code&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    s&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;enter&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;interval&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; read_and_send&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sc&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+s&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;enter&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;interval&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; read_and_send&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;s&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+s&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;run&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Congrats! You should now have live data once a minute. If you ever want to change that time, simply change the &lt;code class=&quot;language-text&quot;&gt;interval&lt;/code&gt; to the number of seconds you want it to wait.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.25766871165644%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAACYElEQVQ4y11SyU4UURStz0Qx6gKikehCXRn3/oEDRCFqogtd+QMyOiQs3ECiQEODPdjdVdU1v/F47qsGh0pu33f7nXveHU704N0uFle3Mb+8iUtPPuLy0/Xg55+t4/rKJq7Q7/dSfO+nWHyxjQVi5x63OLE5Yq8ub+DaygbuvP6MKCkqJEWNOM4wymt0x1NMiib8lzCO8wpKm2Cx4NICaW3wM87RS3IkJbGVCn6SlYiU0nBNDdfvwQ4HsEUOMP77c87BWgvr6Sdj2M4RHHFumvLSApLDO0+LkqyAkHom6jiG7vehul2YJIFhbGo+5j00K8zLOpCrszM0nQ7U6Sma45MQ616fGI3IGEOQZ0sahqxazDrUg2EwU5aszIcKhdjQG3mApoyFblSblxc8N4hYM/79XCi/PbId1i6tePc/Lsyi9Z44Z0JedDrOcTzKcDBIgx0OpzgQ4/lIYlqlDGpa59eUluHHDHc4w4kX7DHvo0cfvuH+269YermDG6tbWHi+Sb+NW4xFBkuvPpGgTb735gvu0m6u7VBCW5TbVjjfJkawD9/v/pmhfNJgXjXws47EW6Vgz7dMf44t6wZVVV/gZFma2KiqWwLPbdokJrKAGVA+aQo7pkSyLExZtlxzAWGmQkyp2NEoKEFz22bQh5EtFwQ1Cee0twdFyTSUgMlzKJLq8aTdrrxOwrJW0MMhqv19NCeUS68XpGZFWrJ9dhtxfzDTKbRUKJWIhCgbqcqKn7UrCZ5SaYhVIhHGlSaJazVqSRYI5cfP5uDPk10rE1tVVIO5IPVMvsDOtCk+YKhB4foNJ6HKznerfyUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/95e92d142f2a8911c648913e43e75838/94563/endts.webp 163w,
+/static/95e92d142f2a8911c648913e43e75838/647a8/endts.webp 325w,
+/static/95e92d142f2a8911c648913e43e75838/c1dc5/endts.webp 650w,
+/static/95e92d142f2a8911c648913e43e75838/1e975/endts.webp 975w,
+/static/95e92d142f2a8911c648913e43e75838/063bf/endts.webp 1300w,
+/static/95e92d142f2a8911c648913e43e75838/bc816/endts.webp 1524w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/95e92d142f2a8911c648913e43e75838/222b7/endts.png 163w,
+/static/95e92d142f2a8911c648913e43e75838/ff46a/endts.png 325w,
+/static/95e92d142f2a8911c648913e43e75838/a6d36/endts.png 650w,
+/static/95e92d142f2a8911c648913e43e75838/e548f/endts.png 975w,
+/static/95e92d142f2a8911c648913e43e75838/3c492/endts.png 1300w,
+/static/95e92d142f2a8911c648913e43e75838/93582/endts.png 1524w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/95e92d142f2a8911c648913e43e75838/a6d36/endts.png&quot;
+          alt=&quot;What it should look like when you are done&quot;
+          title=&quot;What it should look like when you are done&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Whats next?&lt;/h2&gt;
+&lt;p&gt;Hopefully, from this, you have learned enough to figure out how to send any kind of data you want to ThingSpeak so you could explore some more on your own.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;There are some other kinds of visualizations that ThingSpeak has available for your data that you could check out.&lt;/li&gt;
+&lt;li&gt;Make your channel public and share it with your friends.&lt;/li&gt;
+&lt;li&gt;Try reading data from ThingSpeak using GET requests, as shown in the API Keys tab.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item></channel></rss>
