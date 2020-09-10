@@ -1,172 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Your Site's RSS Feed]]></title><description><![CDATA[Welcome Everyone!]]></description><link>https://tinoiot.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 01 Sep 2020 05:27:01 GMT</lastBuildDate><item><title><![CDATA[All About IoT]]></title><description><![CDATA[ IoT, internet of things, refers to the billions of physical devices that are connected to each other via the internet…]]></description><link>https://tinoiot.com/blogs/all-about-iot/</link><guid isPermaLink="false">https://tinoiot.com/blogs/all-about-iot/</guid><pubDate>Sat, 22 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/static/de4b985ca18c5c8357a44de463aedd88/497c6/featuredImage.png&quot;/&gt;&lt;h2&gt;What is IoT?&lt;/h2&gt;
-&lt;p&gt;IoT, internet of things, refers to the billions of physical devices that are connected to each other via the internet and sharing data and other information. Thanks to the arrival of affordable computer chips and the commonality of wireless networks, it is more simple than ever to turn anything into a part of the IoT. By connecting these devices together, adding sensors and writing software to read and manipulate data, these devices are now becoming smarter than ever and are adding an aspect of digital intelligence to our daily lives. &lt;/p&gt;
-&lt;h2&gt;Examples of IoT&lt;/h2&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.87116564417178%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQL/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABl72WVgkT/8QAGxAAAgIDAQAAAAAAAAAAAAAAAgMAEgEREyH/2gAIAQEAAQUCW0rd2W3CHC4fhT//xAAVEQEBAAAAAAAAAAAAAAAAAAAREP/aAAgBAwEBPwEJ/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BJ//EABoQAAICAwAAAAAAAAAAAAAAAAABEBExUWH/2gAIAQEABj8CKaqO7Mx//8QAGxABAAMAAwEAAAAAAAAAAAAAAQARIRAxgaH/2gAIAQEAAT8hEN7y0vyOQW+R3KUC4Fcs1x//2gAMAwEAAgADAAAAEPAP/8QAFhEBAQEAAAAAAAAAAAAAAAAAARBB/9oACAEDAQE/EFEHZ//EABYRAQEBAAAAAAAAAAAAAAAAAAEREP/aAAgBAgEBPxA2uf/EABwQAQACAgMBAAAAAAAAAAAAAAEAIRExQVFxkf/aAAgBAQABPxAZWtNxjhczWJdBZ9jqW3tgR5aVX3iYThcsNbfs/9k=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;picture&gt;
-        &lt;source
-          srcset=&quot;/static/34f42ec88129d21f773f8d5a228f72bf/94563/alexa.webp 163w,
-/static/34f42ec88129d21f773f8d5a228f72bf/647a8/alexa.webp 325w,
-/static/34f42ec88129d21f773f8d5a228f72bf/c1dc5/alexa.webp 650w,
-/static/34f42ec88129d21f773f8d5a228f72bf/1e975/alexa.webp 975w,
-/static/34f42ec88129d21f773f8d5a228f72bf/abb12/alexa.webp 1100w&quot;
-          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
-          type=&quot;image/webp&quot;
-        /&gt;
-        &lt;source
-          srcset=&quot;/static/34f42ec88129d21f773f8d5a228f72bf/d2f63/alexa.jpg 163w,
-/static/34f42ec88129d21f773f8d5a228f72bf/c989d/alexa.jpg 325w,
-/static/34f42ec88129d21f773f8d5a228f72bf/6aca1/alexa.jpg 650w,
-/static/34f42ec88129d21f773f8d5a228f72bf/7c09c/alexa.jpg 975w,
-/static/34f42ec88129d21f773f8d5a228f72bf/ddced/alexa.jpg 1100w&quot;
-          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
-          type=&quot;image/jpeg&quot;
-        /&gt;
-        &lt;img
-          class=&quot;gatsby-resp-image-image&quot;
-          src=&quot;/static/34f42ec88129d21f773f8d5a228f72bf/6aca1/alexa.jpg&quot;
-          alt=&quot;Amazon Alexa&quot;
-          title=&quot;Amazon Alexa&quot;
-          loading=&quot;lazy&quot;
-          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        /&gt;
-      &lt;/picture&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;As IoT continues to grow, its products are becoming more prevalent than ever in a society. One of the most popular IoT implementations is smart homes. Smart Home appliances are one of the most affordable and valuable IoT products on the market as the devices communicate with one another to create a smooth flow of data transmission. Some of the most common appliances are Amazon Alexa, Nest thermostat, and much more! Other common examples of IoT include smartwatches, temperature sensors, GPS trackers, and smart doorbells. &lt;/p&gt;
-&lt;h2&gt;Why IoT Matters&lt;/h2&gt;
-&lt;p&gt;In IoT, devices are connected to the internet where they are equipped with the capabilities to collect, send, and receive data. From a consumer point of view, IoT devices increase the efficiency of tasks and are able to perform them autonomously. &lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 38.65030674846626%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAIEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdasEAf/xAAZEAADAAMAAAAAAAAAAAAAAAABAgMAERP/2gAIAQEAAQUC2zBQwynQ0//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAIDAAMAAAAAAAAAAAAAAAECABEhAxIx/9oACAEBAAY/Ar1fcg5GLFuuiEgvU//EABkQAQADAQEAAAAAAAAAAAAAAAEAETFhcf/aAAgBAQABPyFJN1YRcz8t+QgkqoMyf//aAAwDAQACAAMAAAAQ88//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEBAAMBAQAAAAAAAAAAAAABEQAhMYGx/9oACAEBAAE/ECZnBhrIL9MNxEpFG2DuVRYpBpz25//Z&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;picture&gt;
-        &lt;source
-          srcset=&quot;/static/8c939abcf2aaf5d0b971e707a9b75a03/94563/doorbell.webp 163w,
-/static/8c939abcf2aaf5d0b971e707a9b75a03/647a8/doorbell.webp 325w,
-/static/8c939abcf2aaf5d0b971e707a9b75a03/c1dc5/doorbell.webp 650w,
-/static/8c939abcf2aaf5d0b971e707a9b75a03/1e975/doorbell.webp 975w,
-/static/8c939abcf2aaf5d0b971e707a9b75a03/af3f0/doorbell.webp 1280w&quot;
-          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
-          type=&quot;image/webp&quot;
-        /&gt;
-        &lt;source
-          srcset=&quot;/static/8c939abcf2aaf5d0b971e707a9b75a03/d2f63/doorbell.jpg 163w,
-/static/8c939abcf2aaf5d0b971e707a9b75a03/c989d/doorbell.jpg 325w,
-/static/8c939abcf2aaf5d0b971e707a9b75a03/6aca1/doorbell.jpg 650w,
-/static/8c939abcf2aaf5d0b971e707a9b75a03/7c09c/doorbell.jpg 975w,
-/static/8c939abcf2aaf5d0b971e707a9b75a03/eea4a/doorbell.jpg 1280w&quot;
-          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
-          type=&quot;image/jpeg&quot;
-        /&gt;
-        &lt;img
-          class=&quot;gatsby-resp-image-image&quot;
-          src=&quot;/static/8c939abcf2aaf5d0b971e707a9b75a03/6aca1/doorbell.jpg&quot;
-          alt=&quot;Smart Doorbell&quot;
-          title=&quot;Smart Doorbell&quot;
-          loading=&quot;lazy&quot;
-          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        /&gt;
-      &lt;/picture&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Let’s take a &lt;strong&gt;smart&lt;/strong&gt; doorbell for example. Smart doorbells allow you to monitor the activity near the front of your house, be it a guest, mail package, or even a thief. By replacing the peephole on common doors, smart doorbells are able to act on its own and notify users when activity is noticed outside their front door by streaming video to the user’s mobile devices. Not only does this alleviate the burden of checking your front door but also ensures the user’s safety by enabling them to view and communicate to those outside their home. &lt;/p&gt;
-&lt;p&gt;To be rendered as “smart”, a device doesn’t need to have a powerful brain of its own, all it requires is to be &lt;em&gt;connected&lt;/em&gt; to a more powerful machine. A connection is the principle of the IoT. &lt;/p&gt;
-&lt;p&gt;In the Internet of Things, a connection is used for 2 primary purposes:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;To collect and send data&lt;/li&gt;
-&lt;li&gt;To receive and act on data&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;All of these fundamentals are vital to building a rudimentary IoT device. &lt;/p&gt;
-&lt;h2&gt;Collecting and Sending Information&lt;/h2&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAe2htU0Ei//EABkQAAIDAQAAAAAAAAAAAAAAAAECAAMTEf/aAAgBAQABBQJnCzbjS2vRVpAM/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAQUBAAAAAAAAAAAAAAAAAQAQESExQf/aAAgBAQAGPwKzqvGjvCpJkt//xAAcEAABBAMBAAAAAAAAAAAAAAABABEhQRAxUWH/2gAIAQEAAT8haxJoOqBEX8wCkE8E841esf/aAAwDAQACAAMAAAAQpw//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAcEAEBAAICAwAAAAAAAAAAAAABEQBRIUEQMXH/2gAIAQEAAT8QXKLc/MaxcCGItXT8z3iZPUHL3hYQiAh2G/H/2Q==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;picture&gt;
-        &lt;source
-          srcset=&quot;/static/cab45786403de3acd70627ff73043457/94563/motionSensor.webp 163w,
-/static/cab45786403de3acd70627ff73043457/647a8/motionSensor.webp 325w,
-/static/cab45786403de3acd70627ff73043457/c1dc5/motionSensor.webp 650w,
-/static/cab45786403de3acd70627ff73043457/d00b9/motionSensor.webp 800w&quot;
-          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
-          type=&quot;image/webp&quot;
-        /&gt;
-        &lt;source
-          srcset=&quot;/static/cab45786403de3acd70627ff73043457/d2f63/motionSensor.jpg 163w,
-/static/cab45786403de3acd70627ff73043457/c989d/motionSensor.jpg 325w,
-/static/cab45786403de3acd70627ff73043457/6aca1/motionSensor.jpg 650w,
-/static/cab45786403de3acd70627ff73043457/4b190/motionSensor.jpg 800w&quot;
-          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
-          type=&quot;image/jpeg&quot;
-        /&gt;
-        &lt;img
-          class=&quot;gatsby-resp-image-image&quot;
-          src=&quot;/static/cab45786403de3acd70627ff73043457/6aca1/motionSensor.jpg&quot;
-          alt=&quot;Motion Sensor&quot;
-          title=&quot;Motion Sensor&quot;
-          loading=&quot;lazy&quot;
-          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        /&gt;
-      &lt;/picture&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;The collection of data is performed through the use of sensors. Sensors are distributed in various forms: motion sensors, pressure sensors, temperature sensors, air quality sensors, and so on. When connected to the internet, these senors are automatically able to collect the data we need and upon request, send the data over the internet to servers or to other IoT devices. &lt;/p&gt;
-&lt;h2&gt;Receiving and Responding to Information&lt;/h2&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.87116564417178%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGtlawllEl//8QAGRAAAgMBAAAAAAAAAAAAAAAAAQIAAxEQ/9oACAEBAAEFAtlhsLOjlhWRwou//8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BV//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AUf/xAAcEAABAwUAAAAAAAAAAAAAAAAAAQIREjEyUdH/2gAIAQEABj8CIphNnEM3EFj/xAAaEAACAwEBAAAAAAAAAAAAAAABEQAhMVGh/9oACAEBAAE/IaGg4GJ6i/IT4xRwiG5dhsksgh6d3P/aAAwDAQACAAMAAAAQ98//xAAWEQEBAQAAAAAAAAAAAAAAAAABERD/2gAIAQMBAT8QGNx//8QAFREBAQAAAAAAAAAAAAAAAAAAERD/2gAIAQIBAT8QGP/EABwQAQEAAgIDAAAAAAAAAAAAAAERADFBUXGBwf/aAAgBAQABPxB2B9GAmzDaTcb95aURJ0IZdw9gr5cfMAaZvFWE6UvE+Z//2Q==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;picture&gt;
-        &lt;source
-          srcset=&quot;/static/a6fc06eff5fdd82a5c535c17ffcb8595/94563/printer.webp 163w,
-/static/a6fc06eff5fdd82a5c535c17ffcb8595/647a8/printer.webp 325w,
-/static/a6fc06eff5fdd82a5c535c17ffcb8595/c1dc5/printer.webp 650w,
-/static/a6fc06eff5fdd82a5c535c17ffcb8595/71afc/printer.webp 749w&quot;
-          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
-          type=&quot;image/webp&quot;
-        /&gt;
-        &lt;source
-          srcset=&quot;/static/a6fc06eff5fdd82a5c535c17ffcb8595/d2f63/printer.jpg 163w,
-/static/a6fc06eff5fdd82a5c535c17ffcb8595/c989d/printer.jpg 325w,
-/static/a6fc06eff5fdd82a5c535c17ffcb8595/6aca1/printer.jpg 650w,
-/static/a6fc06eff5fdd82a5c535c17ffcb8595/29177/printer.jpg 749w&quot;
-          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
-          type=&quot;image/jpeg&quot;
-        /&gt;
-        &lt;img
-          class=&quot;gatsby-resp-image-image&quot;
-          src=&quot;/static/a6fc06eff5fdd82a5c535c17ffcb8595/6aca1/printer.jpg&quot;
-          alt=&quot;Printer&quot;
-          title=&quot;Printer&quot;
-          loading=&quot;lazy&quot;
-          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        /&gt;
-      &lt;/picture&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Upon receiving information from sensors, the information is either kept static for analytical/display purposes or is manipulated to derive further information. &lt;/p&gt;
-&lt;p&gt;In our day to day lives, we are often blind to the occurrences of data manipulation. For example, your printer receives a document sent by your laptop/mobile device and prints it out. Your car key, when “unlock” is pressed, sends a signal to your car which unlocks the door.&lt;/p&gt;
-&lt;h2&gt;What’s Next?&lt;/h2&gt;
-&lt;p&gt;The potential of the IoT is endless and as Bruce Schneier says, &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“The internet is no longer a web that we connect to. Instead, it’s a computerized, networked, and interconnected world that we live in. This is the future, and what we’re calling the Internet of Things.”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;If you are interested in learning more about the IoT and building IoT projects of your own, you’ve come to the right place!  &lt;strong&gt;Stay tuned to our blogs as we will be posting more articles and tutorials on how you can kickstart your journey into the Internet of Things.&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Sending Sensor Data to ThingSpeak (esp32)]]></title><description><![CDATA[ This project is meant to give you a practical example of what you can do with IoT skills. We will…]]></description><link>https://tinoiot.com/tutorials/thingspeak-with-esp-mc/</link><guid isPermaLink="false">https://tinoiot.com/tutorials/thingspeak-with-esp-mc/</guid><pubDate>Sat, 22 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/static/94ca67d6860306e7484202df2a48c0ff/2244e/mainpic.jpg&quot;/&gt;&lt;h2&gt;What you will need:&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Your Site's RSS Feed]]></title><description><![CDATA[Welcome Everyone!]]></description><link>https://tinoiot.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 10 Sep 2020 00:00:39 GMT</lastBuildDate><item><title><![CDATA[Sending Sensor Data to ThingSpeak (esp32)]]></title><description><![CDATA[ This project is meant to give you a practical example of what you can do with IoT skills. We will…]]></description><link>https://tinoiot.com/tutorials/thingspeak-with-esp-mc/</link><guid isPermaLink="false">https://tinoiot.com/tutorials/thingspeak-with-esp-mc/</guid><pubDate>Sat, 22 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/static/94ca67d6860306e7484202df2a48c0ff/2244e/mainpic.jpg&quot;/&gt;&lt;h2&gt;What you will need:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.adafruit.com/product/2652&quot;&gt;Adafruit BME280&lt;/a&gt; - You could use any sensor you want, you’ll just have to figure out how to interface with it on your own.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.adafruit.com/product/3591&quot;&gt;Adafruit HUZZAH32 – ESP32 Feather Board&lt;/a&gt;&lt;/li&gt;
@@ -340,8 +172,8 @@ String serverName &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &l
 &lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token expression&quot;&gt;&lt;span class=&quot;token function&quot;&gt;SEALEVELPRESSURE_HPA&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1013.25&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 
 
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; ssid &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Timpani&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; password &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;W!ll1amM!ncher&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; ssid &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;YOUR_WIFI_NAME&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; password &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;YOUR_WIFI_PASSWORD&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
 
 String serverName &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://api.thingspeak.com/update?api_key=FL36D2MOEQ9HTM86&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -478,7 +310,175 @@ Adafruit_BME280 bme&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt
 &lt;p&gt;You could also want to add something to catch if the network goes down and then keep trying to reconnect so that you don’t ever have to restart your device.&lt;/p&gt;
 &lt;!-- end of article --&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[About Us]]></title><description><![CDATA[ The TinoIOT (Internet Of Things) Club’s primary objective revolves around the introduction and promotion of engineering and collaboration.  Our mission…]]></description><link>https://tinoiot.com/blogs/about-us/</link><guid isPermaLink="false">https://tinoiot.com/blogs/about-us/</guid><pubDate>Wed, 19 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/static/cb58475fb36cea4bba85db52207c51a0/2244e/featured_img.jpg&quot;/&gt;&lt;h2&gt;Our Objective&lt;/h2&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[All About IoT]]></title><description><![CDATA[ IoT, internet of things, refers to the billions of physical devices that are connected to each other via the internet…]]></description><link>https://tinoiot.com/blogs/all-about-iot/</link><guid isPermaLink="false">https://tinoiot.com/blogs/all-about-iot/</guid><pubDate>Sat, 22 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/static/de4b985ca18c5c8357a44de463aedd88/497c6/featuredImage.png&quot;/&gt;&lt;h2&gt;What is IoT?&lt;/h2&gt;
+&lt;p&gt;IoT, internet of things, refers to the billions of physical devices that are connected to each other via the internet and sharing data and other information. Thanks to the arrival of affordable computer chips and the commonality of wireless networks, it is more simple than ever to turn anything into a part of the IoT. By connecting these devices together, adding sensors and writing software to read and manipulate data, these devices are now becoming smarter than ever and are adding an aspect of digital intelligence to our daily lives. &lt;/p&gt;
+&lt;h2&gt;Examples of IoT&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.87116564417178%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQL/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABl72WVgkT/8QAGxAAAgIDAQAAAAAAAAAAAAAAAgMAEgEREyH/2gAIAQEAAQUCW0rd2W3CHC4fhT//xAAVEQEBAAAAAAAAAAAAAAAAAAAREP/aAAgBAwEBPwEJ/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BJ//EABoQAAICAwAAAAAAAAAAAAAAAAABEBExUWH/2gAIAQEABj8CKaqO7Mx//8QAGxABAAMAAwEAAAAAAAAAAAAAAQARIRAxgaH/2gAIAQEAAT8hEN7y0vyOQW+R3KUC4Fcs1x//2gAMAwEAAgADAAAAEPAP/8QAFhEBAQEAAAAAAAAAAAAAAAAAARBB/9oACAEDAQE/EFEHZ//EABYRAQEBAAAAAAAAAAAAAAAAAAEREP/aAAgBAgEBPxA2uf/EABwQAQACAgMBAAAAAAAAAAAAAAEAIRExQVFxkf/aAAgBAQABPxAZWtNxjhczWJdBZ9jqW3tgR5aVX3iYThcsNbfs/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/34f42ec88129d21f773f8d5a228f72bf/94563/alexa.webp 163w,
+/static/34f42ec88129d21f773f8d5a228f72bf/647a8/alexa.webp 325w,
+/static/34f42ec88129d21f773f8d5a228f72bf/c1dc5/alexa.webp 650w,
+/static/34f42ec88129d21f773f8d5a228f72bf/1e975/alexa.webp 975w,
+/static/34f42ec88129d21f773f8d5a228f72bf/abb12/alexa.webp 1100w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/34f42ec88129d21f773f8d5a228f72bf/d2f63/alexa.jpg 163w,
+/static/34f42ec88129d21f773f8d5a228f72bf/c989d/alexa.jpg 325w,
+/static/34f42ec88129d21f773f8d5a228f72bf/6aca1/alexa.jpg 650w,
+/static/34f42ec88129d21f773f8d5a228f72bf/7c09c/alexa.jpg 975w,
+/static/34f42ec88129d21f773f8d5a228f72bf/ddced/alexa.jpg 1100w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/34f42ec88129d21f773f8d5a228f72bf/6aca1/alexa.jpg&quot;
+          alt=&quot;Amazon Alexa&quot;
+          title=&quot;Amazon Alexa&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;As IoT continues to grow, its products are becoming more prevalent than ever in a society. One of the most popular IoT implementations is smart homes. Smart Home appliances are one of the most affordable and valuable IoT products on the market as the devices communicate with one another to create a smooth flow of data transmission. Some of the most common appliances are Amazon Alexa, Nest thermostat, and much more! Other common examples of IoT include smartwatches, temperature sensors, GPS trackers, and smart doorbells. &lt;/p&gt;
+&lt;h2&gt;Why IoT Matters&lt;/h2&gt;
+&lt;p&gt;In IoT, devices are connected to the internet where they are equipped with the capabilities to collect, send, and receive data. From a consumer point of view, IoT devices increase the efficiency of tasks and are able to perform them autonomously. &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 38.65030674846626%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAIEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdasEAf/xAAZEAADAAMAAAAAAAAAAAAAAAABAgMAERP/2gAIAQEAAQUC2zBQwynQ0//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAIDAAMAAAAAAAAAAAAAAAECABEhAxIx/9oACAEBAAY/Ar1fcg5GLFuuiEgvU//EABkQAQADAQEAAAAAAAAAAAAAAAEAETFhcf/aAAgBAQABPyFJN1YRcz8t+QgkqoMyf//aAAwDAQACAAMAAAAQ88//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEBAAMBAQAAAAAAAAAAAAABEQAhMYGx/9oACAEBAAE/ECZnBhrIL9MNxEpFG2DuVRYpBpz25//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/8c939abcf2aaf5d0b971e707a9b75a03/94563/doorbell.webp 163w,
+/static/8c939abcf2aaf5d0b971e707a9b75a03/647a8/doorbell.webp 325w,
+/static/8c939abcf2aaf5d0b971e707a9b75a03/c1dc5/doorbell.webp 650w,
+/static/8c939abcf2aaf5d0b971e707a9b75a03/1e975/doorbell.webp 975w,
+/static/8c939abcf2aaf5d0b971e707a9b75a03/af3f0/doorbell.webp 1280w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/8c939abcf2aaf5d0b971e707a9b75a03/d2f63/doorbell.jpg 163w,
+/static/8c939abcf2aaf5d0b971e707a9b75a03/c989d/doorbell.jpg 325w,
+/static/8c939abcf2aaf5d0b971e707a9b75a03/6aca1/doorbell.jpg 650w,
+/static/8c939abcf2aaf5d0b971e707a9b75a03/7c09c/doorbell.jpg 975w,
+/static/8c939abcf2aaf5d0b971e707a9b75a03/eea4a/doorbell.jpg 1280w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/8c939abcf2aaf5d0b971e707a9b75a03/6aca1/doorbell.jpg&quot;
+          alt=&quot;Smart Doorbell&quot;
+          title=&quot;Smart Doorbell&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Let’s take a &lt;strong&gt;smart&lt;/strong&gt; doorbell for example. Smart doorbells allow you to monitor the activity near the front of your house, be it a guest, mail package, or even a thief. By replacing the peephole on common doors, smart doorbells are able to act on its own and notify users when activity is noticed outside their front door by streaming video to the user’s mobile devices. Not only does this alleviate the burden of checking your front door but also ensures the user’s safety by enabling them to view and communicate to those outside their home. &lt;/p&gt;
+&lt;p&gt;To be rendered as “smart”, a device doesn’t need to have a powerful brain of its own, all it requires is to be &lt;em&gt;connected&lt;/em&gt; to a more powerful machine. A connection is the principle of the IoT. &lt;/p&gt;
+&lt;p&gt;In the Internet of Things, a connection is used for 2 primary purposes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;To collect and send data&lt;/li&gt;
+&lt;li&gt;To receive and act on data&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;All of these fundamentals are vital to building a rudimentary IoT device. &lt;/p&gt;
+&lt;h2&gt;Collecting and Sending Information&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAe2htU0Ei//EABkQAAIDAQAAAAAAAAAAAAAAAAECAAMTEf/aAAgBAQABBQJnCzbjS2vRVpAM/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAQUBAAAAAAAAAAAAAAAAAQAQESExQf/aAAgBAQAGPwKzqvGjvCpJkt//xAAcEAABBAMBAAAAAAAAAAAAAAABABEhQRAxUWH/2gAIAQEAAT8haxJoOqBEX8wCkE8E841esf/aAAwDAQACAAMAAAAQpw//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAcEAEBAAICAwAAAAAAAAAAAAABEQBRIUEQMXH/2gAIAQEAAT8QXKLc/MaxcCGItXT8z3iZPUHL3hYQiAh2G/H/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/cab45786403de3acd70627ff73043457/94563/motionSensor.webp 163w,
+/static/cab45786403de3acd70627ff73043457/647a8/motionSensor.webp 325w,
+/static/cab45786403de3acd70627ff73043457/c1dc5/motionSensor.webp 650w,
+/static/cab45786403de3acd70627ff73043457/d00b9/motionSensor.webp 800w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/cab45786403de3acd70627ff73043457/d2f63/motionSensor.jpg 163w,
+/static/cab45786403de3acd70627ff73043457/c989d/motionSensor.jpg 325w,
+/static/cab45786403de3acd70627ff73043457/6aca1/motionSensor.jpg 650w,
+/static/cab45786403de3acd70627ff73043457/4b190/motionSensor.jpg 800w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/cab45786403de3acd70627ff73043457/6aca1/motionSensor.jpg&quot;
+          alt=&quot;Motion Sensor&quot;
+          title=&quot;Motion Sensor&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The collection of data is performed through the use of sensors. Sensors are distributed in various forms: motion sensors, pressure sensors, temperature sensors, air quality sensors, and so on. When connected to the internet, these senors are automatically able to collect the data we need and upon request, send the data over the internet to servers or to other IoT devices. &lt;/p&gt;
+&lt;h2&gt;Receiving and Responding to Information&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.87116564417178%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGtlawllEl//8QAGRAAAgMBAAAAAAAAAAAAAAAAAQIAAxEQ/9oACAEBAAEFAtlhsLOjlhWRwou//8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BV//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AUf/xAAcEAABAwUAAAAAAAAAAAAAAAAAAQIREjEyUdH/2gAIAQEABj8CIphNnEM3EFj/xAAaEAACAwEBAAAAAAAAAAAAAAABEQAhMVGh/9oACAEBAAE/IaGg4GJ6i/IT4xRwiG5dhsksgh6d3P/aAAwDAQACAAMAAAAQ98//xAAWEQEBAQAAAAAAAAAAAAAAAAABERD/2gAIAQMBAT8QGNx//8QAFREBAQAAAAAAAAAAAAAAAAAAERD/2gAIAQIBAT8QGP/EABwQAQEAAgIDAAAAAAAAAAAAAAERADFBUXGBwf/aAAgBAQABPxB2B9GAmzDaTcb95aURJ0IZdw9gr5cfMAaZvFWE6UvE+Z//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/a6fc06eff5fdd82a5c535c17ffcb8595/94563/printer.webp 163w,
+/static/a6fc06eff5fdd82a5c535c17ffcb8595/647a8/printer.webp 325w,
+/static/a6fc06eff5fdd82a5c535c17ffcb8595/c1dc5/printer.webp 650w,
+/static/a6fc06eff5fdd82a5c535c17ffcb8595/71afc/printer.webp 749w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/a6fc06eff5fdd82a5c535c17ffcb8595/d2f63/printer.jpg 163w,
+/static/a6fc06eff5fdd82a5c535c17ffcb8595/c989d/printer.jpg 325w,
+/static/a6fc06eff5fdd82a5c535c17ffcb8595/6aca1/printer.jpg 650w,
+/static/a6fc06eff5fdd82a5c535c17ffcb8595/29177/printer.jpg 749w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/a6fc06eff5fdd82a5c535c17ffcb8595/6aca1/printer.jpg&quot;
+          alt=&quot;Printer&quot;
+          title=&quot;Printer&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Upon receiving information from sensors, the information is either kept static for analytical/display purposes or is manipulated to derive further information. &lt;/p&gt;
+&lt;p&gt;In our day to day lives, we are often blind to the occurrences of data manipulation. For example, your printer receives a document sent by your laptop/mobile device and prints it out. Your car key, when “unlock” is pressed, sends a signal to your car which unlocks the door.&lt;/p&gt;
+&lt;h2&gt;What’s Next?&lt;/h2&gt;
+&lt;p&gt;The potential of the IoT is endless and as Bruce Schneier says, &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“The internet is no longer a web that we connect to. Instead, it’s a computerized, networked, and interconnected world that we live in. This is the future, and what we’re calling the Internet of Things.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If you are interested in learning more about the IoT and building IoT projects of your own, you’ve come to the right place!  &lt;strong&gt;Stay tuned to our blogs as we will be posting more articles and tutorials on how you can kickstart your journey into the Internet of Things.&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[About Us]]></title><description><![CDATA[ The TinoIOT (Internet Of Things) Club’s primary objective revolves around the introduction and promotion of engineering and collaboration.  Our mission…]]></description><link>https://tinoiot.com/blogs/about-us/</link><guid isPermaLink="false">https://tinoiot.com/blogs/about-us/</guid><pubDate>Wed, 19 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/static/cb58475fb36cea4bba85db52207c51a0/2244e/featured_img.jpg&quot;/&gt;&lt;h2&gt;Our Objective&lt;/h2&gt;
 &lt;p&gt;The TinoIOT (Internet Of Things) Club’s primary objective revolves around the introduction and promotion of engineering and collaboration.  &lt;/p&gt;
 &lt;h2&gt;Club Mission&lt;/h2&gt;
 &lt;p&gt;Our mission is to provide each club member with the necessary knowledge to find their individual passions in the world of IoT. An IoT device, by definition, is an electronic device that can transfer data over a network without human interaction. Many of our common household appliances such as smart TVs, watches, and voice assistants are all constantly transmitting vital data in the background, and keeping their users reliably and consistently informed. Although IoT is all around us, many of us have never seen a network interface, or touched the hardware beneath the sleek exterior of these devices. TinoIOT serves as an enabling gateway that promotes free exploration and creation of IoT devices to  students. Club members develop customizable IoT devices for applications of their choosing through instruction from both a detailed curriculum and informative project posts on our website.  &lt;/p&gt;
