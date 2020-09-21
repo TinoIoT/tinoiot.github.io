@@ -1,4 +1,209 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Your Site's RSS Feed]]></title><description><![CDATA[Welcome Everyone!]]></description><link>https://tinoiot.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 15 Sep 2020 05:36:55 GMT</lastBuildDate><item><title><![CDATA[Sending Sensor Data to ThingSpeak (esp32)]]></title><description><![CDATA[ This project is meant to give you a practical example of what you can do with IoT skills. We will…]]></description><link>https://tinoiot.com/tutorials/thingspeak-with-esp-mc/</link><guid isPermaLink="false">https://tinoiot.com/tutorials/thingspeak-with-esp-mc/</guid><pubDate>Sat, 22 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/static/94ca67d6860306e7484202df2a48c0ff/2244e/mainpic.jpg&quot;/&gt;&lt;h2&gt;What you will need:&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Your Site's RSS Feed]]></title><description><![CDATA[Welcome Everyone!]]></description><link>https://tinoiot.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 21 Sep 2020 07:43:52 GMT</lastBuildDate><item><title><![CDATA[Air Quality Sensor]]></title><description><![CDATA[ With ongoing fires, air pollution, and many harmful impurities in the air, it’s important to understand how the data you…]]></description><link>https://tinoiot.com/pre-prods/air-quality-sensor/</link><guid isPermaLink="false">https://tinoiot.com/pre-prods/air-quality-sensor/</guid><pubDate>Sun, 20 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/static/fdedabfafdefaad7b77f88549570a981/463b4/pms.png&quot;/&gt;&lt;h2&gt;What you will need:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://m.banggood.com/PMS5003-PM2_5-Air-Particle-Dust-Sensor-Laser-Digital-Output-Module-High-Precision-Air-Haze-Detection-Smart-Home-Device-p-1553818.html?akmClientCountry=America&amp;#x26;rmmds=orderdetail&quot;&gt;PMS5003 (pm2.5 sensor)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.amazon.com/KeeYees-Internet-Development-Wireless-Compatible/dp/B07HF44GBT/ref=sr_1_3?crid=1N2U8UI66A7U4&amp;#x26;dchild=1&amp;#x26;keywords=nodemcu+esp8266&amp;#x26;qid=1598505040&amp;#x26;s=electronics&amp;#x26;sprefix=nodemc%2Celectronics%2C228&amp;#x26;sr=1-3&quot;&gt;Esp8266 (nodemcu)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Arduino IDE&lt;/li&gt;
+&lt;li&gt;Breadboard and cables&lt;/li&gt;
+&lt;li&gt;ThingSpeak Account&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Project Background&lt;/h2&gt;
+&lt;p&gt;With ongoing fires, air pollution, and many harmful impurities in the air, it’s important to understand how the data you see from air quality maps come to be. This project guides you through how to set up your own iot project to measure pm2.5 (particulate matters), which is a significant factor in calculating aqi (air quality index).&lt;/p&gt;
+&lt;p&gt;This New York Department of Health article goes more in depth of the health hazards if you are interested: &lt;a href=&quot;https://www.health.ny.gov/environmental/indoors/air/pmq_a.htm#:~:text=Particles%20in%20the%20PM2.5%20size%20range%20are%20able%20to,nose%20and%20shortness%20of%20breath&quot;&gt;https://www.health.ny.gov/environmental/indoors/air/pmq_a.htm#:~:text=Particles%20in%20the%20PM2.5%20size%20range%20are%20able%20to,nose%20and%20shortness%20of%20breath&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This monitoring project is made achievable via pms5003 sensor using light scattering principle, and that coupled with the esp over thingspeak allows for you to access the data from the pms over the internet.&lt;/p&gt;
+&lt;h2&gt;Setting everything up / wiring&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;This step applies if your purchase came with a connector. If it doesn’t, go to the next step titled wiring from pms to esp.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The wiring for this module to its connector is as follows:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;From Right to Left:
+Pin 1 Vcc:  To Power supply (5V)
+Pin 2 GND:  To gnd (negative power)
+Pin 3 SET:  To SET, a TTL input signal
+Pin 4 RXD:  To RXD, serial receiving
+Pin 5 TXD:  To TXD, serial sending
+Pin 6 RST:  To RST, which is reset signal&lt;/p&gt;
+&lt;p&gt;Be careful not to plug these in backwards.&lt;/p&gt;
+&lt;p&gt;The descriptions on the sensor saying ttl@3.3V simply indicates that any voltage applied that is below 3.3V will not work/run. That is why, in the next step, we have to connect to 5V on the esp.&lt;/p&gt;
+&lt;p&gt;If you skipped here without a connector, just follow the following steps, but use 4 male to male dupont cables directly from the black and red connector strip into the breadboard tie points (or breadholes, as we unironically call them) that match to each pin of the esp. 2 indents on the white connector should match up to the rails in the PMS’s sensor port. If you need to brush up on some breadboard how-to’s, refer to this post here. Remember - each connector and each pin should match to their respective destinations!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The wiring from the pms5003 sensor to the esp8266 is as follows:&lt;/strong&gt;
+pms  esp
+Pin 1 Vcc:  To Vin Pin (5V)
+Pin 2 GND:  To gnd
+Pin 3 TXD:  To TXD (tx)
+Pin 4 RXD:  To RXD (rx)&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.987730061349694%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACdElEQVQoz4WT2UuUYRjFv3+iGyEigqCLujAwvGjRmyA0nRnDmMicccMdU7QshSwnBQ1BSYzwMvO+EsEyF0wd04ZcGp1Fx2FmnH3X9Jv59anZokQHHp7DuxwO73NeIR6Pc1CxWOwn3++7OOgHiP+jYj81BA7hz+u/RMVtRIeFHZsFnDbwOMBl3+duiUt7BxA2I0G2gh7Cfre0bkLcDBH0brAZjSCKImIsjhj2s2MyEg9vYjeYMOjmseoNe3x1SY9lahKbZY1gKITg27Ay+qafjoZKygpy6XvZTV9jJdsB32+r36OSIxdr1nVKyoq5naOk/n41+QUqMhRy1AWFZMrktLe3IyzOTVGlzqaoqJQLsnLU1xV01ZbT8LCeZ60aNJpmPo1+QLLM5OQEyUnnefr4Hu0t9dy8kYEiS4FSeYvLV1IYGhpEGB4Z51yKmlOpNSSk1CGr6uBFyxNyThyjKDmRzpZmBnp7JMEtprVTJJ49Q0VJLhWlapTZmdTeLaSivIy09HT6+18h+F02ahq7SEgqlkSrOZn2iPRMFbLTx8lLvURnm4autiZ8vg1MZhP5eWqKi/LJkmeQfu0qTQ9KUKnuIFdk0draihCWJhaxf6Oz5zUXsxrIq+vmeW8fA4PvGB4ZYXR8jI8zOhYsxr3n9Hq8GA0r6OZm0UrDmJnWotN95u37AVxO9+5Q1rEuafGvL2FenCXiWEb0Wf6KkjcQYeyLFofk0uFzshFw4Qy4cQbduENebD47E19nkeKLEAl48drMBJxWol47QbeNoMfOzvaWFJvYbhgJhaPozassmlZYMC4fqXmDHsPq2t75I8E+HPPDP+V/+AHqGNmwUe004AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/644b69ebcfb9fe6c5528539adecaac88/94563/wires.webp 163w,
+/static/644b69ebcfb9fe6c5528539adecaac88/647a8/wires.webp 325w,
+/static/644b69ebcfb9fe6c5528539adecaac88/c1dc5/wires.webp 650w,
+/static/644b69ebcfb9fe6c5528539adecaac88/1e975/wires.webp 975w,
+/static/644b69ebcfb9fe6c5528539adecaac88/6e1e4/wires.webp 1008w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/644b69ebcfb9fe6c5528539adecaac88/222b7/wires.png 163w,
+/static/644b69ebcfb9fe6c5528539adecaac88/ff46a/wires.png 325w,
+/static/644b69ebcfb9fe6c5528539adecaac88/a6d36/wires.png 650w,
+/static/644b69ebcfb9fe6c5528539adecaac88/e548f/wires.png 975w,
+/static/644b69ebcfb9fe6c5528539adecaac88/d6a46/wires.png 1008w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/644b69ebcfb9fe6c5528539adecaac88/a6d36/wires.png&quot;
+          alt=&quot;Wiring Diagram&quot;
+          title=&quot;Wiring Diagram&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;You may have realized by this point that wiring is pretty intuitive for the most part - everything just matches up to their names, or their name meanings.&lt;/p&gt;
+&lt;h2&gt;Getting Thingspeak up and Running&lt;/h2&gt;
+&lt;p&gt;Please get a thingspeak account set up. Then, please reference this article, &lt;a href=&quot;https://tinoiot.com/tutorials/esp32-thingspeak-wm/&quot;&gt;Sending Sensor Data to ThingSpeak&lt;/a&gt;, to get some preliminary information on how to send live air sensor data and visualize/analyze said data via http and mqtt. However, instead of a BME280, it’ll be your pms5003 - focus on the setup as well as learning how to send live data, then come back here for a specific walkthrough. You could try &lt;a href=&quot;https://tinoiot.github.io/pre-prods/esp32-thingspeak-wm#sending-data-to-thingspeak&quot;&gt;this&lt;/a&gt; particular section of the Thingspeak walkthrough just to see some cool stuff happen - and to also test if you have all the wifi shenanigans done correctly.&lt;/p&gt;
+&lt;p&gt;We will be using it to monitor the particulate levels sensed. Create a channel (you can name it air quality system or anything you’d like), and keep track of the url under “white a channel feed” and set it under the correct server name. Again, all is shown in the above linked article if you’re confused.&lt;/p&gt;
+&lt;p&gt;Use the following code:&lt;/p&gt;
+&lt;p&gt;The setup loop takes care of making sure wifi is all set up properly. We will be graphing the values in ug/m3, with the x axis being time, or rather just timestamps.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// import statements allow for different types of sensors or controllers to be used
+#include &amp;lt;ESP8266WiFi.h&amp;gt;
+#include &amp;lt;Arduino.h&amp;gt;
+
+#define LENG 31   // 0x42 + 31 bytes equal to 32 bytes
+unsigned char buf[LENG];
+
+// these declarations are used to track the values to then plot into thingspeak. upon initalization they&amp;#39;ll be set to 0 as a baseline.
+int PM01Value = 0;
+int PM2_5Value = 0;
+int PM10Value = 0;
+
+// allow for data to be sent to your computer via wifi
+const char *ssid = &amp;quot;YOUR_WIFI_NAME&amp;quot;;
+const char *password = &amp;quot;YOUR_WIFI_PASSWORD&amp;quot;;
+
+String serverName = &amp;quot;https://api.thingspeak.com/update?api_key=YOUR_WRITE_KEY&amp;quot;;
+WiFiClient client;
+
+unsigned long lastTime = 0;
+unsigned long timerDelay = 60000;
+
+// the setup loop&amp;#39;s purpose is just to ensure connectivity and that your wifi is working
+void setup() {
+    Serial.begin(9600);
+
+    WiFi.begin(ssid, password);
+    Serial.println(&amp;quot;Connecting&amp;quot;);
+    while (WiFi.status() != WL_CONNECTED) {
+        delay(500);
+        Serial.print(&amp;quot;.&amp;quot;);
+    }
+    Serial.println(&amp;quot;&amp;quot;);
+    Serial.print(&amp;quot;Connected to WiFi network with IP Address: &amp;quot;);
+    Serial.println(WiFi.localIP());
+}
+
+void loop() {
+    // starts to read when it gets data from buffer
+    if (Serial.find(0x42)) {
+        Serial.readBytes(buf, LENG);
+
+        // reads the sensor value in this loop and uses previous variable to keep track of it
+        if (buf[0] == 0x4d) {
+            if (checkValue(buf, LENG)) {
+                PM01Value = transmitPM01(buf);  // count PM1.0 value of the air detector module
+                PM2_5Value = transmitPM2_5(buf);  // count PM2.5 value of the air detector module
+                PM10Value = transmitPM10(buf);  // count PM10 value of the air detector module
+            }
+        }
+    }
+
+// prints out the values read from the sensor out to your computer
+    static unsigned long OledTimer = millis();
+    if (millis() - OledTimer &amp;gt;= 1000) {
+        OledTimer = millis();
+
+        Serial.print(&amp;quot;PM1.0: &amp;quot;);
+        Serial.print(PM01Value);
+        Serial.println(&amp;quot;  ug/m3&amp;quot;);
+
+        Serial.print(&amp;quot;PM2.5: &amp;quot;);
+        Serial.print(PM2_5Value);
+        Serial.println(&amp;quot;  ug/m3&amp;quot;);
+
+        Serial.print(&amp;quot;PM10 : &amp;quot;);
+        Serial.print(PM10Value);
+        Serial.println(&amp;quot;  ug/m3&amp;quot;);
+        Serial.println();
+
+        // if able to send data over to thingspeak, it will do so here, and allow it to be displayed. You can look at ts api for clarification as needed
+        if (client.connect(server, 80)) {
+            String postStr = apiKey;
+            postStr += &amp;quot;&amp;amp;field1=&amp;quot;;
+            postStr += String(PM01Value);
+            postStr += &amp;quot;&amp;amp;field2=&amp;quot;;
+            postStr += String(PM2_5Value);
+            postStr += &amp;quot;&amp;amp;field3=&amp;quot;;
+            postStr += String(PM10Value);
+            postStr += &amp;quot;\r\n\r\n&amp;quot;;
+
+            client.print(&amp;quot;POST /update HTTP/1.1\n&amp;quot;);
+            client.print(&amp;quot;Host: api.thingspeak.com\n&amp;quot;);
+            client.print(&amp;quot;Connection: close\n&amp;quot;);
+            client.print(&amp;quot;X-THINGSPEAKAPIKEY: &amp;quot; + apiKey + &amp;quot;\n&amp;quot;);
+            client.print(&amp;quot;Content-Type: application/x-www-form-urlencoded\n&amp;quot;);
+            client.print(&amp;quot;Content-Length: &amp;quot;);
+            client.print(postStr.length());
+            client.print(&amp;quot;\n\n&amp;quot;);
+            client.print(postStr);
+        }
+        client.stop();
+    }
+}
+
+char checkValue(unsigned char *thebuf, char leng) {
+    char receiveflag = 0;
+    int receiveSum = 0;
+
+    for (int i = 0; i &amp;lt; (leng - 2); i++) {
+        receiveSum = receiveSum + thebuf[i];
+    }
+    receiveSum = receiveSum + 0x42;
+
+    // check the serial data
+    if (receiveSum == ((thebuf[leng - 2] &amp;lt;&amp;lt; 8) + thebuf[leng - 1])) {
+        receiveSum = 0;
+        receiveflag = 1;
+    }
+    return receiveflag;
+}
+
+int transmitPM01(unsigned char *thebuf) {
+    int PM01Val;
+    PM01Val = ((thebuf[3] &amp;lt;&amp;lt; 8) + thebuf[4]);  // count PM1.0 value of the air detector module
+    return PM01Val;
+}
+
+// transmit PM Value to PC
+int transmitPM2_5(unsigned char *thebuf) {
+    int PM2_5Val;
+    PM2_5Val = ((thebuf[5] &amp;lt;&amp;lt; 8) + thebuf[6]);  // count PM2.5 value of the air detector module
+    return PM2_5Val;
+}
+
+// transmit PM Value to PC
+int transmitPM10(unsigned char *thebuf) {
+    int PM10Val;
+    PM10Val = ((thebuf[7] &amp;lt;&amp;lt; 8) + thebuf[8]);  // count PM10 value of the air detector module
+    return PM10Val;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;In a few minutes, you should now see 3 live data plots graphing pm1, 2.5, and 10! Congrats!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Sending Sensor Data to ThingSpeak (esp32)]]></title><description><![CDATA[ This project is meant to give you a practical example of what you can do with IoT skills. We will…]]></description><link>https://tinoiot.com/tutorials/thingspeak-with-esp-mc/</link><guid isPermaLink="false">https://tinoiot.com/tutorials/thingspeak-with-esp-mc/</guid><pubDate>Sat, 22 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/static/94ca67d6860306e7484202df2a48c0ff/2244e/mainpic.jpg&quot;/&gt;&lt;h2&gt;What you will need:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.adafruit.com/product/2652&quot;&gt;Adafruit BME280&lt;/a&gt; - You could use any sensor you want, you’ll just have to figure out how to interface with it on your own.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.adafruit.com/product/3591&quot;&gt;Adafruit HUZZAH32 – ESP32 Feather Board&lt;/a&gt;&lt;/li&gt;
