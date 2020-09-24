@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Your Site's RSS Feed]]></title><description><![CDATA[Welcome Everyone!]]></description><link>https://tinoiot.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 21 Sep 2020 07:43:52 GMT</lastBuildDate><item><title><![CDATA[Air Quality Sensor]]></title><description><![CDATA[ With ongoing fires, air pollution, and many harmful impurities in the air, it’s important to understand how the data you…]]></description><link>https://tinoiot.com/pre-prods/air-quality-sensor/</link><guid isPermaLink="false">https://tinoiot.com/pre-prods/air-quality-sensor/</guid><pubDate>Sun, 20 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/static/fdedabfafdefaad7b77f88549570a981/463b4/pms.png&quot;/&gt;&lt;h2&gt;What you will need:&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Your Site's RSS Feed]]></title><description><![CDATA[Welcome Everyone!]]></description><link>https://tinoiot.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 24 Sep 2020 23:30:18 GMT</lastBuildDate><item><title><![CDATA[Common Questions]]></title><description><![CDATA[Hi everyone! Below is a list of commonly asked questions (along with answers) during the first meeting today. Feel free…]]></description><link>https://tinoiot.com/blogs/q-and-a/</link><guid isPermaLink="false">https://tinoiot.com/blogs/q-and-a/</guid><pubDate>Thu, 24 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi everyone! Below is a list of commonly asked questions (along with answers) during the first meeting today. Feel free to DM us for more specific questions :)&lt;/p&gt;
+&lt;h2&gt;How do we get components for projects?&lt;/h2&gt;
+&lt;p&gt;Components, as of now, can’t be lended out by us because of restrictions on in-person meetings. In short, it would be fastest to purchase from an online store if you want to get started right away (we always provide links to recommended retailers). &lt;/p&gt;
+&lt;h2&gt;How much would these components cost?&lt;/h2&gt;
+&lt;p&gt;The good thing about IoT is that it has a very very low barrier to entry. It cost less than 50 dollars to build our prototype doorbell camera. The most expensive component—the microcontroller—can be reused endless times for other projects. After the initial purchase of a microcontroller + breadboard kit, a typical project would cost around 10 dollars. &lt;/p&gt;
+&lt;h2&gt;Would I be able to publish my own projects on &lt;a href=&quot;https://tinoiot.com&quot;&gt;tinoiot.com&lt;/a&gt;?&lt;/h2&gt;
+&lt;p&gt;Yes… eventually. We are currently in the process of setting up a submission form and all posts will have to follow strict guidelines (and have to go through the mandatory review process).&lt;/p&gt;
+&lt;h2&gt;When are the meetings?&lt;/h2&gt;
+&lt;p&gt;Our meetings will be at 12pm, on Wednesdays. Please make sure to use your school email when joining our Zoom call at &lt;a href=&quot;https://meet.tinoiot.com&quot;&gt;meet.tinoiot.com&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;How do I become a member? Are there requirements?&lt;/h2&gt;
+&lt;p&gt;TinoIoT does not have requirements nor fees, visit &lt;a href=&quot;https://join.tinoiot.com&quot;&gt;join.tinoiot.com&lt;/a&gt; to get started!&lt;/p&gt;
+&lt;h2&gt;What if I can’t make the meetings on wednesday?&lt;/h2&gt;
+&lt;p&gt;It would be best if you can make the bi-weekly meetings so you can ask questions and get more information / personalized help. However, we will be posting our slides on our website along with commentaries to help everyone stay on track with their projects. &lt;/p&gt;
+&lt;h2&gt;Are the slides posted?&lt;/h2&gt;
+&lt;p&gt;Of course! How could we not make another tiny link. Visit &lt;a href=&quot;https://slides.tinoiot.com&quot;&gt;slides.tinoiot.com&lt;/a&gt; to view ALL of our slides. They will be posted and updated to that site every meeting.&lt;/p&gt;
+&lt;h2&gt;Do I have to follow the curriculum / projects?&lt;/h2&gt;
+&lt;p&gt;Nope. You are always welcome to start your own projects and you could always message us for any help. Our officers have a wide range of capabilities, feel free to ask about anything!&lt;/p&gt;
+&lt;p&gt;Make sure to &lt;a href=&quot;https://join.tinoiot.com&quot;&gt;join.tinoiot.com&lt;/a&gt; to get future announcements. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Air Quality Sensor]]></title><description><![CDATA[ With ongoing fires, air pollution, and many harmful impurities in the air, it’s important to understand how the data you…]]></description><link>https://tinoiot.com/tutorials/esp32-aq-sensor/</link><guid isPermaLink="false">https://tinoiot.com/tutorials/esp32-aq-sensor/</guid><pubDate>Sun, 20 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/static/62158abbadaddbcc3e985a9eb83a3433/2244e/pms2.jpg&quot;/&gt;&lt;h2&gt;What you will need:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://m.banggood.com/PMS5003-PM2_5-Air-Particle-Dust-Sensor-Laser-Digital-Output-Module-High-Precision-Air-Haze-Detection-Smart-Home-Device-p-1553818.html?akmClientCountry=America&amp;#x26;rmmds=orderdetail&quot;&gt;PMS5003 (pm2.5 sensor)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/KeeYees-Internet-Development-Wireless-Compatible/dp/B07HF44GBT/ref=sr_1_3?crid=1N2U8UI66A7U4&amp;#x26;dchild=1&amp;#x26;keywords=nodemcu+esp8266&amp;#x26;qid=1598505040&amp;#x26;s=electronics&amp;#x26;sprefix=nodemc%2Celectronics%2C228&amp;#x26;sr=1-3&quot;&gt;Esp8266 (nodemcu)&lt;/a&gt;&lt;/li&gt;
@@ -8,7 +25,7 @@
 &lt;/ul&gt;
 &lt;h2&gt;Project Background&lt;/h2&gt;
 &lt;p&gt;With ongoing fires, air pollution, and many harmful impurities in the air, it’s important to understand how the data you see from air quality maps come to be. This project guides you through how to set up your own iot project to measure pm2.5 (particulate matters), which is a significant factor in calculating aqi (air quality index).&lt;/p&gt;
-&lt;p&gt;This New York Department of Health article goes more in depth of the health hazards if you are interested: &lt;a href=&quot;https://www.health.ny.gov/environmental/indoors/air/pmq_a.htm#:~:text=Particles%20in%20the%20PM2.5%20size%20range%20are%20able%20to,nose%20and%20shortness%20of%20breath&quot;&gt;https://www.health.ny.gov/environmental/indoors/air/pmq_a.htm#:~:text=Particles%20in%20the%20PM2.5%20size%20range%20are%20able%20to,nose%20and%20shortness%20of%20breath&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This New York Department of Health article goes more in depth of the health hazards if you are interested: &lt;a href=&quot;https://www.health.ny.gov/environmental/indoors/air/pmq_a.htm#:~:text=Particles%20in%20the%20PM2.5%20size%20range%20are%20able%20to,nose%20and%20shortness%20of%20breath&quot;&gt;https://www.health.ny.gov/environmental/indoors/air/pmq_a.htm&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;This monitoring project is made achievable via pms5003 sensor using light scattering principle, and that coupled with the esp over thingspeak allows for you to access the data from the pms over the internet.&lt;/p&gt;
 &lt;h2&gt;Setting everything up / wiring&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;This step applies if your purchase came with a connector. If it doesn’t, go to the next step titled wiring from pms to esp.&lt;/strong&gt;&lt;/p&gt;
@@ -35,30 +52,32 @@ Pin 4 RXD:  To RXD (rx)&lt;/p&gt;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 53.987730061349694%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACdElEQVQoz4WT2UuUYRjFv3+iGyEigqCLujAwvGjRmyA0nRnDmMicccMdU7QshSwnBQ1BSYzwMvO+EsEyF0wd04ZcGp1Fx2FmnH3X9Jv59anZokQHHp7DuxwO73NeIR6Pc1CxWOwn3++7OOgHiP+jYj81BA7hz+u/RMVtRIeFHZsFnDbwOMBl3+duiUt7BxA2I0G2gh7Cfre0bkLcDBH0brAZjSCKImIsjhj2s2MyEg9vYjeYMOjmseoNe3x1SY9lahKbZY1gKITg27Ay+qafjoZKygpy6XvZTV9jJdsB32+r36OSIxdr1nVKyoq5naOk/n41+QUqMhRy1AWFZMrktLe3IyzOTVGlzqaoqJQLsnLU1xV01ZbT8LCeZ60aNJpmPo1+QLLM5OQEyUnnefr4Hu0t9dy8kYEiS4FSeYvLV1IYGhpEGB4Z51yKmlOpNSSk1CGr6uBFyxNyThyjKDmRzpZmBnp7JMEtprVTJJ49Q0VJLhWlapTZmdTeLaSivIy09HT6+18h+F02ahq7SEgqlkSrOZn2iPRMFbLTx8lLvURnm4autiZ8vg1MZhP5eWqKi/LJkmeQfu0qTQ9KUKnuIFdk0draihCWJhaxf6Oz5zUXsxrIq+vmeW8fA4PvGB4ZYXR8jI8zOhYsxr3n9Hq8GA0r6OZm0UrDmJnWotN95u37AVxO9+5Q1rEuafGvL2FenCXiWEb0Wf6KkjcQYeyLFofk0uFzshFw4Qy4cQbduENebD47E19nkeKLEAl48drMBJxWol47QbeNoMfOzvaWFJvYbhgJhaPozassmlZYMC4fqXmDHsPq2t75I8E+HPPDP+V/+AHqGNmwUe004AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 46.012269938650306%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAC4jAAAuIwF4pT92AAAB0ElEQVQoz2P4jwv8/fPn2YO/z578f/vq/9vX/9+8BJGvnv3/8h4s/Q+IGXDp/ffr+98Hd75/+HTh5IlTRw5fPXfu4pnT5w7sv3jkwPWbt379+gXS/O/v37+/f/0HUr9//vnz99fv3z9+//76/cfvb5//f3h/+NChyMiw3JzUirI8Xz+f8KhoF3eP8vKyt2/fgDRfuX0nb+vJzK2Xanaf2rphXWFacm5sZHlRwY6tG4EuX7ZkiYOdxZQJTYW5ScFB/ukZGW7u7tNnTAU57d8/hkMXr5jNOaDTs9t57v41M6bWWuolaygumNS7Ydak/39+rV+31sLUICUhwsfTJSMppLo8x8PLJzc3+927tyCbD56/bDFxh3HrFuu+LbPmzstPScyJjZrQ390+beLLL++ePX22cMGCCf19leXl7S0NE/u7Kmqq5syd9+3bN5DmPafOqTWsUqlarVa9aP2mzUChL0AP//p1+/Hzu68eg53399uPL1++ffr45cOPn99uPrv98PlzqLOv375TN3t547w1DTMWnr9wHigKDDYg+fzN+zM3rp6/fQ2ILty5fuHOjYt3gejmqWuXXrx+C9UMjzQYiYis37//QNEvJPT7D1AbRAUAEBSobUETWnIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
         &lt;source
-          srcset=&quot;/static/644b69ebcfb9fe6c5528539adecaac88/94563/wires.webp 163w,
-/static/644b69ebcfb9fe6c5528539adecaac88/647a8/wires.webp 325w,
-/static/644b69ebcfb9fe6c5528539adecaac88/c1dc5/wires.webp 650w,
-/static/644b69ebcfb9fe6c5528539adecaac88/1e975/wires.webp 975w,
-/static/644b69ebcfb9fe6c5528539adecaac88/6e1e4/wires.webp 1008w&quot;
+          srcset=&quot;/static/46c90ffc60da60475ca074af15c9774d/94563/wiring-diagram.webp 163w,
+/static/46c90ffc60da60475ca074af15c9774d/647a8/wiring-diagram.webp 325w,
+/static/46c90ffc60da60475ca074af15c9774d/c1dc5/wiring-diagram.webp 650w,
+/static/46c90ffc60da60475ca074af15c9774d/1e975/wiring-diagram.webp 975w,
+/static/46c90ffc60da60475ca074af15c9774d/063bf/wiring-diagram.webp 1300w,
+/static/46c90ffc60da60475ca074af15c9774d/e393f/wiring-diagram.webp 1725w&quot;
           sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
           type=&quot;image/webp&quot;
         /&gt;
         &lt;source
-          srcset=&quot;/static/644b69ebcfb9fe6c5528539adecaac88/222b7/wires.png 163w,
-/static/644b69ebcfb9fe6c5528539adecaac88/ff46a/wires.png 325w,
-/static/644b69ebcfb9fe6c5528539adecaac88/a6d36/wires.png 650w,
-/static/644b69ebcfb9fe6c5528539adecaac88/e548f/wires.png 975w,
-/static/644b69ebcfb9fe6c5528539adecaac88/d6a46/wires.png 1008w&quot;
+          srcset=&quot;/static/46c90ffc60da60475ca074af15c9774d/222b7/wiring-diagram.png 163w,
+/static/46c90ffc60da60475ca074af15c9774d/ff46a/wiring-diagram.png 325w,
+/static/46c90ffc60da60475ca074af15c9774d/a6d36/wiring-diagram.png 650w,
+/static/46c90ffc60da60475ca074af15c9774d/e548f/wiring-diagram.png 975w,
+/static/46c90ffc60da60475ca074af15c9774d/3c492/wiring-diagram.png 1300w,
+/static/46c90ffc60da60475ca074af15c9774d/8fdfc/wiring-diagram.png 1725w&quot;
           sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
           type=&quot;image/png&quot;
         /&gt;
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
-          src=&quot;/static/644b69ebcfb9fe6c5528539adecaac88/a6d36/wires.png&quot;
+          src=&quot;/static/46c90ffc60da60475ca074af15c9774d/a6d36/wiring-diagram.png&quot;
           alt=&quot;Wiring Diagram&quot;
           title=&quot;Wiring Diagram&quot;
           loading=&quot;lazy&quot;
@@ -68,142 +87,311 @@ Pin 4 RXD:  To RXD (rx)&lt;/p&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;You may have realized by this point that wiring is pretty intuitive for the most part - everything just matches up to their names, or their name meanings.&lt;/p&gt;
 &lt;h2&gt;Getting Thingspeak up and Running&lt;/h2&gt;
-&lt;p&gt;Please get a thingspeak account set up. Then, please reference this article, &lt;a href=&quot;https://tinoiot.com/tutorials/esp32-thingspeak-wm/&quot;&gt;Sending Sensor Data to ThingSpeak&lt;/a&gt;, to get some preliminary information on how to send live air sensor data and visualize/analyze said data via http and mqtt. However, instead of a BME280, it’ll be your pms5003 - focus on the setup as well as learning how to send live data, then come back here for a specific walkthrough. You could try &lt;a href=&quot;https://tinoiot.github.io/pre-prods/esp32-thingspeak-wm#sending-data-to-thingspeak&quot;&gt;this&lt;/a&gt; particular section of the Thingspeak walkthrough just to see some cool stuff happen - and to also test if you have all the wifi shenanigans done correctly.&lt;/p&gt;
+&lt;p&gt;Please get a thingspeak account set up. Then, please reference this article, &lt;a href=&quot;https://tinoiot.com/tutorials/esp32-thingspeak-wm/&quot;&gt;Sending Sensor Data to ThingSpeak&lt;/a&gt;, to get some preliminary information on how to send live air sensor data and visualize/analyze said data via http and mqtt. However, instead of a BME280, it’ll be your pms5003 - focus on the setup as well as learning how to send live data, then come back here for a specific walkthrough. You could try &lt;a href=&quot;https://tinoiot.com/tutorials/thingspeak-with-esp-mc#sending-data-to-thing-speak&quot;&gt;this&lt;/a&gt; particular section of the Thingspeak walkthrough just to see some cool stuff happen - and to also test if you have all the wifi shenanigans done correctly.&lt;/p&gt;
 &lt;p&gt;We will be using it to monitor the particulate levels sensed. Create a channel (you can name it air quality system or anything you’d like), and keep track of the url under “white a channel feed” and set it under the correct server name. Again, all is shown in the above linked article if you’re confused.&lt;/p&gt;
 &lt;p&gt;Use the following code:&lt;/p&gt;
 &lt;p&gt;The setup loop takes care of making sure wifi is all set up properly. We will be graphing the values in ug/m3, with the x axis being time, or rather just timestamps.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// import statements allow for different types of sensors or controllers to be used
-#include &amp;lt;ESP8266WiFi.h&amp;gt;
-#include &amp;lt;Arduino.h&amp;gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c&quot;&gt;&lt;pre class=&quot;language-c&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// import statements allow for different types of sensors or controllers to be used&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&amp;lt;ESP8266WiFi.h&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&amp;lt;Arduino.h&gt;&lt;/span&gt;&lt;/span&gt;
 
-#define LENG 31   // 0x42 + 31 bytes equal to 32 bytes
-unsigned char buf[LENG];
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token expression&quot;&gt;LENG &lt;span class=&quot;token number&quot;&gt;31&lt;/span&gt;   &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// 0x42 + 31 bytes equal to 32 bytes&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;char&lt;/span&gt; buf&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;LENG&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-// these declarations are used to track the values to then plot into thingspeak. upon initalization they&amp;#39;ll be set to 0 as a baseline.
-int PM01Value = 0;
-int PM2_5Value = 0;
-int PM10Value = 0;
+&lt;span class=&quot;token comment&quot;&gt;// these declarations are used to track the values to then plot into thingspeak. upon initalization they&apos;ll be set to 0 as a baseline.&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; PM01Value &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; PM2_5Value &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; PM10Value &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-// allow for data to be sent to your computer via wifi
-const char *ssid = &amp;quot;YOUR_WIFI_NAME&amp;quot;;
-const char *password = &amp;quot;YOUR_WIFI_PASSWORD&amp;quot;;
+&lt;span class=&quot;token comment&quot;&gt;// allow for data to be sent to your computer via wifi&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;ssid &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;YOUR_WIFI_NAME&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;password &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;YOUR_WIFI_PASSWORD&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-String serverName = &amp;quot;https://api.thingspeak.com/update?api_key=YOUR_WRITE_KEY&amp;quot;;
-WiFiClient client;
+String serverName &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://api.thingspeak.com/update?api_key=YOUR_WRITE_KEY&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+WiFiClient client&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-unsigned long lastTime = 0;
-unsigned long timerDelay = 60000;
+&lt;span class=&quot;token keyword&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;long&lt;/span&gt; lastTime &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;long&lt;/span&gt; timerDelay &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;60000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-// the setup loop&amp;#39;s purpose is just to ensure connectivity and that your wifi is working
-void setup() {
-    Serial.begin(9600);
+&lt;span class=&quot;token comment&quot;&gt;// the setup loop&apos;s purpose is just to ensure connectivity and that your wifi is working&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    Serial&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9600&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-    WiFi.begin(ssid, password);
-    Serial.println(&amp;quot;Connecting&amp;quot;);
-    while (WiFi.status() != WL_CONNECTED) {
-        delay(500);
-        Serial.print(&amp;quot;.&amp;quot;);
-    }
-    Serial.println(&amp;quot;&amp;quot;);
-    Serial.print(&amp;quot;Connected to WiFi network with IP Address: &amp;quot;);
-    Serial.println(WiFi.localIP());
-}
+    WiFi&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ssid&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; password&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    Serial&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Connecting&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;WiFi&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!=&lt;/span&gt; WL_CONNECTED&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;delay&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        Serial&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;.&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    Serial&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    Serial&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Connected to WiFi network with IP Address: &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    Serial&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;WiFi&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;localIP&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
-void loop() {
-    // starts to read when it gets data from buffer
-    if (Serial.find(0x42)) {
-        Serial.readBytes(buf, LENG);
+&lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;loop&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// starts to read when it gets data from buffer&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Serial&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0x42&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        Serial&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;readBytes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;buf&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; LENG&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-        // reads the sensor value in this loop and uses previous variable to keep track of it
-        if (buf[0] == 0x4d) {
-            if (checkValue(buf, LENG)) {
-                PM01Value = transmitPM01(buf);  // count PM1.0 value of the air detector module
-                PM2_5Value = transmitPM2_5(buf);  // count PM2.5 value of the air detector module
-                PM10Value = transmitPM10(buf);  // count PM10 value of the air detector module
-            }
-        }
-    }
+        &lt;span class=&quot;token comment&quot;&gt;// reads the sensor value in this loop and uses previous variable to keep track of it&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;buf&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0x4d&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;checkValue&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;buf&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; LENG&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                PM01Value &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;transmitPM01&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;buf&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;// count PM1.0 value of the air detector module&lt;/span&gt;
+                PM2_5Value &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;transmitPM2_5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;buf&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;// count PM2.5 value of the air detector module&lt;/span&gt;
+                PM10Value &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;transmitPM10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;buf&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;// count PM10 value of the air detector module&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
-// prints out the values read from the sensor out to your computer
-    static unsigned long OledTimer = millis();
-    if (millis() - OledTimer &amp;gt;= 1000) {
-        OledTimer = millis();
+&lt;span class=&quot;token comment&quot;&gt;// prints out the values read from the sensor out to your computer&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;long&lt;/span&gt; OledTimer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;millis&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;millis&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; OledTimer &lt;span class=&quot;token operator&quot;&gt;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        OledTimer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;millis&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-        Serial.print(&amp;quot;PM1.0: &amp;quot;);
-        Serial.print(PM01Value);
-        Serial.println(&amp;quot;  ug/m3&amp;quot;);
+        Serial&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;PM1.0: &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        Serial&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;PM01Value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        Serial&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;  ug/m3&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-        Serial.print(&amp;quot;PM2.5: &amp;quot;);
-        Serial.print(PM2_5Value);
-        Serial.println(&amp;quot;  ug/m3&amp;quot;);
+        Serial&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;PM2.5: &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        Serial&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;PM2_5Value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        Serial&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;  ug/m3&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-        Serial.print(&amp;quot;PM10 : &amp;quot;);
-        Serial.print(PM10Value);
-        Serial.println(&amp;quot;  ug/m3&amp;quot;);
-        Serial.println();
+        Serial&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;PM10 : &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        Serial&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;PM10Value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        Serial&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;  ug/m3&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        Serial&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-        // if able to send data over to thingspeak, it will do so here, and allow it to be displayed. You can look at ts api for clarification as needed
-        if (client.connect(server, 80)) {
-            String postStr = apiKey;
-            postStr += &amp;quot;&amp;amp;field1=&amp;quot;;
-            postStr += String(PM01Value);
-            postStr += &amp;quot;&amp;amp;field2=&amp;quot;;
-            postStr += String(PM2_5Value);
-            postStr += &amp;quot;&amp;amp;field3=&amp;quot;;
-            postStr += String(PM10Value);
-            postStr += &amp;quot;\r\n\r\n&amp;quot;;
+        &lt;span class=&quot;token comment&quot;&gt;// if able to send data over to thingspeak, it will do so here, and allow it to be displayed. You can look at ts api for clarification as needed&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;client&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;connect&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;server&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            String postStr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; apiKey&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            postStr &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&amp;amp;field1=&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            postStr &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;PM01Value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            postStr &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&amp;amp;field2=&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            postStr &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;PM2_5Value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            postStr &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&amp;amp;field3=&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            postStr &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;PM10Value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            postStr &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;\r\n\r\n&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-            client.print(&amp;quot;POST /update HTTP/1.1\n&amp;quot;);
-            client.print(&amp;quot;Host: api.thingspeak.com\n&amp;quot;);
-            client.print(&amp;quot;Connection: close\n&amp;quot;);
-            client.print(&amp;quot;X-THINGSPEAKAPIKEY: &amp;quot; + apiKey + &amp;quot;\n&amp;quot;);
-            client.print(&amp;quot;Content-Type: application/x-www-form-urlencoded\n&amp;quot;);
-            client.print(&amp;quot;Content-Length: &amp;quot;);
-            client.print(postStr.length());
-            client.print(&amp;quot;\n\n&amp;quot;);
-            client.print(postStr);
-        }
-        client.stop();
-    }
-}
+            client&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;POST /update HTTP/1.1\n&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            client&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Host: api.thingspeak.com\n&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            client&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Connection: close\n&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            client&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;X-THINGSPEAKAPIKEY: &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; apiKey &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;\n&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            client&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Content-Type: application/x-www-form-urlencoded\n&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            client&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Content-Length: &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            client&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;postStr&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            client&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;\n\n&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            client&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;postStr&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        client&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;stop&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
-char checkValue(unsigned char *thebuf, char leng) {
-    char receiveflag = 0;
-    int receiveSum = 0;
+&lt;span class=&quot;token keyword&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;checkValue&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;thebuf&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;char&lt;/span&gt; leng&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;char&lt;/span&gt; receiveflag &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; receiveSum &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-    for (int i = 0; i &amp;lt; (leng - 2); i++) {
-        receiveSum = receiveSum + thebuf[i];
-    }
-    receiveSum = receiveSum + 0x42;
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;leng &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        receiveSum &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; receiveSum &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; thebuf&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    receiveSum &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; receiveSum &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0x42&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-    // check the serial data
-    if (receiveSum == ((thebuf[leng - 2] &amp;lt;&amp;lt; 8) + thebuf[leng - 1])) {
-        receiveSum = 0;
-        receiveflag = 1;
-    }
-    return receiveflag;
-}
+    &lt;span class=&quot;token comment&quot;&gt;// check the serial data&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;receiveSum &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;thebuf&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;leng &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; thebuf&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;leng &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        receiveSum &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        receiveflag &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; receiveflag&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
-int transmitPM01(unsigned char *thebuf) {
-    int PM01Val;
-    PM01Val = ((thebuf[3] &amp;lt;&amp;lt; 8) + thebuf[4]);  // count PM1.0 value of the air detector module
-    return PM01Val;
-}
+&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;transmitPM01&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;thebuf&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; PM01Val&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    PM01Val &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;thebuf&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; thebuf&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;// count PM1.0 value of the air detector module&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; PM01Val&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
-// transmit PM Value to PC
-int transmitPM2_5(unsigned char *thebuf) {
-    int PM2_5Val;
-    PM2_5Val = ((thebuf[5] &amp;lt;&amp;lt; 8) + thebuf[6]);  // count PM2.5 value of the air detector module
-    return PM2_5Val;
-}
+&lt;span class=&quot;token comment&quot;&gt;// transmit PM Value to PC&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;transmitPM2_5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;thebuf&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; PM2_5Val&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    PM2_5Val &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;thebuf&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; thebuf&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;// count PM2.5 value of the air detector module&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; PM2_5Val&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
-// transmit PM Value to PC
-int transmitPM10(unsigned char *thebuf) {
-    int PM10Val;
-    PM10Val = ((thebuf[7] &amp;lt;&amp;lt; 8) + thebuf[8]);  // count PM10 value of the air detector module
-    return PM10Val;
-}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;In a few minutes, you should now see 3 live data plots graphing pm1, 2.5, and 10! Congrats!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Sending Sensor Data to ThingSpeak (esp32)]]></title><description><![CDATA[ This project is meant to give you a practical example of what you can do with IoT skills. We will…]]></description><link>https://tinoiot.com/tutorials/thingspeak-with-esp-mc/</link><guid isPermaLink="false">https://tinoiot.com/tutorials/thingspeak-with-esp-mc/</guid><pubDate>Sat, 22 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/static/94ca67d6860306e7484202df2a48c0ff/2244e/mainpic.jpg&quot;/&gt;&lt;h2&gt;What you will need:&lt;/h2&gt;
+&lt;span class=&quot;token comment&quot;&gt;// transmit PM Value to PC&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;transmitPM10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;thebuf&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; PM10Val&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    PM10Val &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;thebuf&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; thebuf&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;// count PM10 value of the air detector module&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; PM10Val&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;In a few minutes, you should now see 3 live data plots graphing pm1, 2.5, and 10! Congrats!&lt;/p&gt;
+&lt;!-- end of article --&gt;</content:encoded></item><item><title><![CDATA[All About IoT]]></title><description><![CDATA[ IoT, internet of things, refers to the billions of physical devices that are connected to each other via the internet…]]></description><link>https://tinoiot.com/blogs/all-about-iot/</link><guid isPermaLink="false">https://tinoiot.com/blogs/all-about-iot/</guid><pubDate>Sat, 22 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/static/de4b985ca18c5c8357a44de463aedd88/497c6/featuredImage.png&quot;/&gt;&lt;h2&gt;What is IoT?&lt;/h2&gt;
+&lt;p&gt;IoT, internet of things, refers to the billions of physical devices that are connected to each other via the internet and sharing data and other information. Thanks to the arrival of affordable computer chips and the commonality of wireless networks, it is more simple than ever to turn anything into a part of the IoT. By connecting these devices together, adding sensors and writing software to read and manipulate data, these devices are now becoming smarter than ever and are adding an aspect of digital intelligence to our daily lives. &lt;/p&gt;
+&lt;h2&gt;Examples of IoT&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.87116564417178%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQL/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABl72WVgkT/8QAGxAAAgIDAQAAAAAAAAAAAAAAAgMAEgEREyH/2gAIAQEAAQUCW0rd2W3CHC4fhT//xAAVEQEBAAAAAAAAAAAAAAAAAAAREP/aAAgBAwEBPwEJ/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BJ//EABoQAAICAwAAAAAAAAAAAAAAAAABEBExUWH/2gAIAQEABj8CKaqO7Mx//8QAGxABAAMAAwEAAAAAAAAAAAAAAQARIRAxgaH/2gAIAQEAAT8hEN7y0vyOQW+R3KUC4Fcs1x//2gAMAwEAAgADAAAAEPAP/8QAFhEBAQEAAAAAAAAAAAAAAAAAARBB/9oACAEDAQE/EFEHZ//EABYRAQEBAAAAAAAAAAAAAAAAAAEREP/aAAgBAgEBPxA2uf/EABwQAQACAgMBAAAAAAAAAAAAAAEAIRExQVFxkf/aAAgBAQABPxAZWtNxjhczWJdBZ9jqW3tgR5aVX3iYThcsNbfs/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/34f42ec88129d21f773f8d5a228f72bf/94563/alexa.webp 163w,
+/static/34f42ec88129d21f773f8d5a228f72bf/647a8/alexa.webp 325w,
+/static/34f42ec88129d21f773f8d5a228f72bf/c1dc5/alexa.webp 650w,
+/static/34f42ec88129d21f773f8d5a228f72bf/1e975/alexa.webp 975w,
+/static/34f42ec88129d21f773f8d5a228f72bf/abb12/alexa.webp 1100w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/34f42ec88129d21f773f8d5a228f72bf/d2f63/alexa.jpg 163w,
+/static/34f42ec88129d21f773f8d5a228f72bf/c989d/alexa.jpg 325w,
+/static/34f42ec88129d21f773f8d5a228f72bf/6aca1/alexa.jpg 650w,
+/static/34f42ec88129d21f773f8d5a228f72bf/7c09c/alexa.jpg 975w,
+/static/34f42ec88129d21f773f8d5a228f72bf/ddced/alexa.jpg 1100w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/34f42ec88129d21f773f8d5a228f72bf/6aca1/alexa.jpg&quot;
+          alt=&quot;Amazon Alexa&quot;
+          title=&quot;Amazon Alexa&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;As IoT continues to grow, its products are becoming more prevalent than ever in a society. One of the most popular IoT implementations is smart homes. Smart Home appliances are one of the most affordable and valuable IoT products on the market as the devices communicate with one another to create a smooth flow of data transmission. Some of the most common appliances are Amazon Alexa, Nest thermostat, and much more! Other common examples of IoT include smartwatches, temperature sensors, GPS trackers, and smart doorbells. &lt;/p&gt;
+&lt;h2&gt;Why IoT Matters&lt;/h2&gt;
+&lt;p&gt;In IoT, devices are connected to the internet where they are equipped with the capabilities to collect, send, and receive data. From a consumer point of view, IoT devices increase the efficiency of tasks and are able to perform them autonomously. &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 38.65030674846626%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAIEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdasEAf/xAAZEAADAAMAAAAAAAAAAAAAAAABAgMAERP/2gAIAQEAAQUC2zBQwynQ0//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAIDAAMAAAAAAAAAAAAAAAECABEhAxIx/9oACAEBAAY/Ar1fcg5GLFuuiEgvU//EABkQAQADAQEAAAAAAAAAAAAAAAEAETFhcf/aAAgBAQABPyFJN1YRcz8t+QgkqoMyf//aAAwDAQACAAMAAAAQ88//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEBAAMBAQAAAAAAAAAAAAABEQAhMYGx/9oACAEBAAE/ECZnBhrIL9MNxEpFG2DuVRYpBpz25//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/8c939abcf2aaf5d0b971e707a9b75a03/94563/doorbell.webp 163w,
+/static/8c939abcf2aaf5d0b971e707a9b75a03/647a8/doorbell.webp 325w,
+/static/8c939abcf2aaf5d0b971e707a9b75a03/c1dc5/doorbell.webp 650w,
+/static/8c939abcf2aaf5d0b971e707a9b75a03/1e975/doorbell.webp 975w,
+/static/8c939abcf2aaf5d0b971e707a9b75a03/af3f0/doorbell.webp 1280w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/8c939abcf2aaf5d0b971e707a9b75a03/d2f63/doorbell.jpg 163w,
+/static/8c939abcf2aaf5d0b971e707a9b75a03/c989d/doorbell.jpg 325w,
+/static/8c939abcf2aaf5d0b971e707a9b75a03/6aca1/doorbell.jpg 650w,
+/static/8c939abcf2aaf5d0b971e707a9b75a03/7c09c/doorbell.jpg 975w,
+/static/8c939abcf2aaf5d0b971e707a9b75a03/eea4a/doorbell.jpg 1280w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/8c939abcf2aaf5d0b971e707a9b75a03/6aca1/doorbell.jpg&quot;
+          alt=&quot;Smart Doorbell&quot;
+          title=&quot;Smart Doorbell&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Let’s take a &lt;strong&gt;smart&lt;/strong&gt; doorbell for example. Smart doorbells allow you to monitor the activity near the front of your house, be it a guest, mail package, or even a thief. By replacing the peephole on common doors, smart doorbells are able to act on its own and notify users when activity is noticed outside their front door by streaming video to the user’s mobile devices. Not only does this alleviate the burden of checking your front door but also ensures the user’s safety by enabling them to view and communicate to those outside their home. &lt;/p&gt;
+&lt;p&gt;To be rendered as “smart”, a device doesn’t need to have a powerful brain of its own, all it requires is to be &lt;em&gt;connected&lt;/em&gt; to a more powerful machine. A connection is the principle of the IoT. &lt;/p&gt;
+&lt;p&gt;In the Internet of Things, a connection is used for 2 primary purposes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;To collect and send data&lt;/li&gt;
+&lt;li&gt;To receive and act on data&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;All of these fundamentals are vital to building a rudimentary IoT device. &lt;/p&gt;
+&lt;h2&gt;Collecting and Sending Information&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAe2htU0Ei//EABkQAAIDAQAAAAAAAAAAAAAAAAECAAMTEf/aAAgBAQABBQJnCzbjS2vRVpAM/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAQUBAAAAAAAAAAAAAAAAAQAQESExQf/aAAgBAQAGPwKzqvGjvCpJkt//xAAcEAABBAMBAAAAAAAAAAAAAAABABEhQRAxUWH/2gAIAQEAAT8haxJoOqBEX8wCkE8E841esf/aAAwDAQACAAMAAAAQpw//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAcEAEBAAICAwAAAAAAAAAAAAABEQBRIUEQMXH/2gAIAQEAAT8QXKLc/MaxcCGItXT8z3iZPUHL3hYQiAh2G/H/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/cab45786403de3acd70627ff73043457/94563/motionSensor.webp 163w,
+/static/cab45786403de3acd70627ff73043457/647a8/motionSensor.webp 325w,
+/static/cab45786403de3acd70627ff73043457/c1dc5/motionSensor.webp 650w,
+/static/cab45786403de3acd70627ff73043457/d00b9/motionSensor.webp 800w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/cab45786403de3acd70627ff73043457/d2f63/motionSensor.jpg 163w,
+/static/cab45786403de3acd70627ff73043457/c989d/motionSensor.jpg 325w,
+/static/cab45786403de3acd70627ff73043457/6aca1/motionSensor.jpg 650w,
+/static/cab45786403de3acd70627ff73043457/4b190/motionSensor.jpg 800w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/cab45786403de3acd70627ff73043457/6aca1/motionSensor.jpg&quot;
+          alt=&quot;Motion Sensor&quot;
+          title=&quot;Motion Sensor&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The collection of data is performed through the use of sensors. Sensors are distributed in various forms: motion sensors, pressure sensors, temperature sensors, air quality sensors, and so on. When connected to the internet, these senors are automatically able to collect the data we need and upon request, send the data over the internet to servers or to other IoT devices. &lt;/p&gt;
+&lt;h2&gt;Receiving and Responding to Information&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.87116564417178%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGtlawllEl//8QAGRAAAgMBAAAAAAAAAAAAAAAAAQIAAxEQ/9oACAEBAAEFAtlhsLOjlhWRwou//8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BV//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AUf/xAAcEAABAwUAAAAAAAAAAAAAAAAAAQIREjEyUdH/2gAIAQEABj8CIphNnEM3EFj/xAAaEAACAwEBAAAAAAAAAAAAAAABEQAhMVGh/9oACAEBAAE/IaGg4GJ6i/IT4xRwiG5dhsksgh6d3P/aAAwDAQACAAMAAAAQ98//xAAWEQEBAQAAAAAAAAAAAAAAAAABERD/2gAIAQMBAT8QGNx//8QAFREBAQAAAAAAAAAAAAAAAAAAERD/2gAIAQIBAT8QGP/EABwQAQEAAgIDAAAAAAAAAAAAAAERADFBUXGBwf/aAAgBAQABPxB2B9GAmzDaTcb95aURJ0IZdw9gr5cfMAaZvFWE6UvE+Z//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/a6fc06eff5fdd82a5c535c17ffcb8595/94563/printer.webp 163w,
+/static/a6fc06eff5fdd82a5c535c17ffcb8595/647a8/printer.webp 325w,
+/static/a6fc06eff5fdd82a5c535c17ffcb8595/c1dc5/printer.webp 650w,
+/static/a6fc06eff5fdd82a5c535c17ffcb8595/71afc/printer.webp 749w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/a6fc06eff5fdd82a5c535c17ffcb8595/d2f63/printer.jpg 163w,
+/static/a6fc06eff5fdd82a5c535c17ffcb8595/c989d/printer.jpg 325w,
+/static/a6fc06eff5fdd82a5c535c17ffcb8595/6aca1/printer.jpg 650w,
+/static/a6fc06eff5fdd82a5c535c17ffcb8595/29177/printer.jpg 749w&quot;
+          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/a6fc06eff5fdd82a5c535c17ffcb8595/6aca1/printer.jpg&quot;
+          alt=&quot;Printer&quot;
+          title=&quot;Printer&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Upon receiving information from sensors, the information is either kept static for analytical/display purposes or is manipulated to derive further information. &lt;/p&gt;
+&lt;p&gt;In our day to day lives, we are often blind to the occurrences of data manipulation. For example, your printer receives a document sent by your laptop/mobile device and prints it out. Your car key, when “unlock” is pressed, sends a signal to your car which unlocks the door.&lt;/p&gt;
+&lt;h2&gt;What’s Next?&lt;/h2&gt;
+&lt;p&gt;The potential of the IoT is endless and as Bruce Schneier says, &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“The internet is no longer a web that we connect to. Instead, it’s a computerized, networked, and interconnected world that we live in. This is the future, and what we’re calling the Internet of Things.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If you are interested in learning more about the IoT and building IoT projects of your own, you’ve come to the right place!  &lt;strong&gt;Stay tuned to our blogs as we will be posting more articles and tutorials on how you can kickstart your journey into the Internet of Things.&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Sending Sensor Data to ThingSpeak (esp32)]]></title><description><![CDATA[ This project is meant to give you a practical example of what you can do with IoT skills. We will…]]></description><link>https://tinoiot.com/tutorials/thingspeak-with-esp-mc/</link><guid isPermaLink="false">https://tinoiot.com/tutorials/thingspeak-with-esp-mc/</guid><pubDate>Sat, 22 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/static/94ca67d6860306e7484202df2a48c0ff/2244e/mainpic.jpg&quot;/&gt;&lt;h2&gt;What you will need:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.adafruit.com/product/2652&quot;&gt;Adafruit BME280&lt;/a&gt; - You could use any sensor you want, you’ll just have to figure out how to interface with it on your own.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.adafruit.com/product/3591&quot;&gt;Adafruit HUZZAH32 – ESP32 Feather Board&lt;/a&gt;&lt;/li&gt;
@@ -515,175 +703,7 @@ Adafruit_BME280 bme&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt
 &lt;p&gt;You could also want to add something to catch if the network goes down and then keep trying to reconnect so that you don’t ever have to restart your device.&lt;/p&gt;
 &lt;!-- end of article --&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[All About IoT]]></title><description><![CDATA[ IoT, internet of things, refers to the billions of physical devices that are connected to each other via the internet…]]></description><link>https://tinoiot.com/blogs/all-about-iot/</link><guid isPermaLink="false">https://tinoiot.com/blogs/all-about-iot/</guid><pubDate>Sat, 22 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/static/de4b985ca18c5c8357a44de463aedd88/497c6/featuredImage.png&quot;/&gt;&lt;h2&gt;What is IoT?&lt;/h2&gt;
-&lt;p&gt;IoT, internet of things, refers to the billions of physical devices that are connected to each other via the internet and sharing data and other information. Thanks to the arrival of affordable computer chips and the commonality of wireless networks, it is more simple than ever to turn anything into a part of the IoT. By connecting these devices together, adding sensors and writing software to read and manipulate data, these devices are now becoming smarter than ever and are adding an aspect of digital intelligence to our daily lives. &lt;/p&gt;
-&lt;h2&gt;Examples of IoT&lt;/h2&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.87116564417178%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQL/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABl72WVgkT/8QAGxAAAgIDAQAAAAAAAAAAAAAAAgMAEgEREyH/2gAIAQEAAQUCW0rd2W3CHC4fhT//xAAVEQEBAAAAAAAAAAAAAAAAAAAREP/aAAgBAwEBPwEJ/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BJ//EABoQAAICAwAAAAAAAAAAAAAAAAABEBExUWH/2gAIAQEABj8CKaqO7Mx//8QAGxABAAMAAwEAAAAAAAAAAAAAAQARIRAxgaH/2gAIAQEAAT8hEN7y0vyOQW+R3KUC4Fcs1x//2gAMAwEAAgADAAAAEPAP/8QAFhEBAQEAAAAAAAAAAAAAAAAAARBB/9oACAEDAQE/EFEHZ//EABYRAQEBAAAAAAAAAAAAAAAAAAEREP/aAAgBAgEBPxA2uf/EABwQAQACAgMBAAAAAAAAAAAAAAEAIRExQVFxkf/aAAgBAQABPxAZWtNxjhczWJdBZ9jqW3tgR5aVX3iYThcsNbfs/9k=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;picture&gt;
-        &lt;source
-          srcset=&quot;/static/34f42ec88129d21f773f8d5a228f72bf/94563/alexa.webp 163w,
-/static/34f42ec88129d21f773f8d5a228f72bf/647a8/alexa.webp 325w,
-/static/34f42ec88129d21f773f8d5a228f72bf/c1dc5/alexa.webp 650w,
-/static/34f42ec88129d21f773f8d5a228f72bf/1e975/alexa.webp 975w,
-/static/34f42ec88129d21f773f8d5a228f72bf/abb12/alexa.webp 1100w&quot;
-          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
-          type=&quot;image/webp&quot;
-        /&gt;
-        &lt;source
-          srcset=&quot;/static/34f42ec88129d21f773f8d5a228f72bf/d2f63/alexa.jpg 163w,
-/static/34f42ec88129d21f773f8d5a228f72bf/c989d/alexa.jpg 325w,
-/static/34f42ec88129d21f773f8d5a228f72bf/6aca1/alexa.jpg 650w,
-/static/34f42ec88129d21f773f8d5a228f72bf/7c09c/alexa.jpg 975w,
-/static/34f42ec88129d21f773f8d5a228f72bf/ddced/alexa.jpg 1100w&quot;
-          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
-          type=&quot;image/jpeg&quot;
-        /&gt;
-        &lt;img
-          class=&quot;gatsby-resp-image-image&quot;
-          src=&quot;/static/34f42ec88129d21f773f8d5a228f72bf/6aca1/alexa.jpg&quot;
-          alt=&quot;Amazon Alexa&quot;
-          title=&quot;Amazon Alexa&quot;
-          loading=&quot;lazy&quot;
-          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        /&gt;
-      &lt;/picture&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;As IoT continues to grow, its products are becoming more prevalent than ever in a society. One of the most popular IoT implementations is smart homes. Smart Home appliances are one of the most affordable and valuable IoT products on the market as the devices communicate with one another to create a smooth flow of data transmission. Some of the most common appliances are Amazon Alexa, Nest thermostat, and much more! Other common examples of IoT include smartwatches, temperature sensors, GPS trackers, and smart doorbells. &lt;/p&gt;
-&lt;h2&gt;Why IoT Matters&lt;/h2&gt;
-&lt;p&gt;In IoT, devices are connected to the internet where they are equipped with the capabilities to collect, send, and receive data. From a consumer point of view, IoT devices increase the efficiency of tasks and are able to perform them autonomously. &lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 38.65030674846626%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAIEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdasEAf/xAAZEAADAAMAAAAAAAAAAAAAAAABAgMAERP/2gAIAQEAAQUC2zBQwynQ0//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAIDAAMAAAAAAAAAAAAAAAECABEhAxIx/9oACAEBAAY/Ar1fcg5GLFuuiEgvU//EABkQAQADAQEAAAAAAAAAAAAAAAEAETFhcf/aAAgBAQABPyFJN1YRcz8t+QgkqoMyf//aAAwDAQACAAMAAAAQ88//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEBAAMBAQAAAAAAAAAAAAABEQAhMYGx/9oACAEBAAE/ECZnBhrIL9MNxEpFG2DuVRYpBpz25//Z&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;picture&gt;
-        &lt;source
-          srcset=&quot;/static/8c939abcf2aaf5d0b971e707a9b75a03/94563/doorbell.webp 163w,
-/static/8c939abcf2aaf5d0b971e707a9b75a03/647a8/doorbell.webp 325w,
-/static/8c939abcf2aaf5d0b971e707a9b75a03/c1dc5/doorbell.webp 650w,
-/static/8c939abcf2aaf5d0b971e707a9b75a03/1e975/doorbell.webp 975w,
-/static/8c939abcf2aaf5d0b971e707a9b75a03/af3f0/doorbell.webp 1280w&quot;
-          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
-          type=&quot;image/webp&quot;
-        /&gt;
-        &lt;source
-          srcset=&quot;/static/8c939abcf2aaf5d0b971e707a9b75a03/d2f63/doorbell.jpg 163w,
-/static/8c939abcf2aaf5d0b971e707a9b75a03/c989d/doorbell.jpg 325w,
-/static/8c939abcf2aaf5d0b971e707a9b75a03/6aca1/doorbell.jpg 650w,
-/static/8c939abcf2aaf5d0b971e707a9b75a03/7c09c/doorbell.jpg 975w,
-/static/8c939abcf2aaf5d0b971e707a9b75a03/eea4a/doorbell.jpg 1280w&quot;
-          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
-          type=&quot;image/jpeg&quot;
-        /&gt;
-        &lt;img
-          class=&quot;gatsby-resp-image-image&quot;
-          src=&quot;/static/8c939abcf2aaf5d0b971e707a9b75a03/6aca1/doorbell.jpg&quot;
-          alt=&quot;Smart Doorbell&quot;
-          title=&quot;Smart Doorbell&quot;
-          loading=&quot;lazy&quot;
-          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        /&gt;
-      &lt;/picture&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Let’s take a &lt;strong&gt;smart&lt;/strong&gt; doorbell for example. Smart doorbells allow you to monitor the activity near the front of your house, be it a guest, mail package, or even a thief. By replacing the peephole on common doors, smart doorbells are able to act on its own and notify users when activity is noticed outside their front door by streaming video to the user’s mobile devices. Not only does this alleviate the burden of checking your front door but also ensures the user’s safety by enabling them to view and communicate to those outside their home. &lt;/p&gt;
-&lt;p&gt;To be rendered as “smart”, a device doesn’t need to have a powerful brain of its own, all it requires is to be &lt;em&gt;connected&lt;/em&gt; to a more powerful machine. A connection is the principle of the IoT. &lt;/p&gt;
-&lt;p&gt;In the Internet of Things, a connection is used for 2 primary purposes:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;To collect and send data&lt;/li&gt;
-&lt;li&gt;To receive and act on data&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;All of these fundamentals are vital to building a rudimentary IoT device. &lt;/p&gt;
-&lt;h2&gt;Collecting and Sending Information&lt;/h2&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAe2htU0Ei//EABkQAAIDAQAAAAAAAAAAAAAAAAECAAMTEf/aAAgBAQABBQJnCzbjS2vRVpAM/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAQUBAAAAAAAAAAAAAAAAAQAQESExQf/aAAgBAQAGPwKzqvGjvCpJkt//xAAcEAABBAMBAAAAAAAAAAAAAAABABEhQRAxUWH/2gAIAQEAAT8haxJoOqBEX8wCkE8E841esf/aAAwDAQACAAMAAAAQpw//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAcEAEBAAICAwAAAAAAAAAAAAABEQBRIUEQMXH/2gAIAQEAAT8QXKLc/MaxcCGItXT8z3iZPUHL3hYQiAh2G/H/2Q==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;picture&gt;
-        &lt;source
-          srcset=&quot;/static/cab45786403de3acd70627ff73043457/94563/motionSensor.webp 163w,
-/static/cab45786403de3acd70627ff73043457/647a8/motionSensor.webp 325w,
-/static/cab45786403de3acd70627ff73043457/c1dc5/motionSensor.webp 650w,
-/static/cab45786403de3acd70627ff73043457/d00b9/motionSensor.webp 800w&quot;
-          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
-          type=&quot;image/webp&quot;
-        /&gt;
-        &lt;source
-          srcset=&quot;/static/cab45786403de3acd70627ff73043457/d2f63/motionSensor.jpg 163w,
-/static/cab45786403de3acd70627ff73043457/c989d/motionSensor.jpg 325w,
-/static/cab45786403de3acd70627ff73043457/6aca1/motionSensor.jpg 650w,
-/static/cab45786403de3acd70627ff73043457/4b190/motionSensor.jpg 800w&quot;
-          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
-          type=&quot;image/jpeg&quot;
-        /&gt;
-        &lt;img
-          class=&quot;gatsby-resp-image-image&quot;
-          src=&quot;/static/cab45786403de3acd70627ff73043457/6aca1/motionSensor.jpg&quot;
-          alt=&quot;Motion Sensor&quot;
-          title=&quot;Motion Sensor&quot;
-          loading=&quot;lazy&quot;
-          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        /&gt;
-      &lt;/picture&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;The collection of data is performed through the use of sensors. Sensors are distributed in various forms: motion sensors, pressure sensors, temperature sensors, air quality sensors, and so on. When connected to the internet, these senors are automatically able to collect the data we need and upon request, send the data over the internet to servers or to other IoT devices. &lt;/p&gt;
-&lt;h2&gt;Receiving and Responding to Information&lt;/h2&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.87116564417178%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGtlawllEl//8QAGRAAAgMBAAAAAAAAAAAAAAAAAQIAAxEQ/9oACAEBAAEFAtlhsLOjlhWRwou//8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BV//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AUf/xAAcEAABAwUAAAAAAAAAAAAAAAAAAQIREjEyUdH/2gAIAQEABj8CIphNnEM3EFj/xAAaEAACAwEBAAAAAAAAAAAAAAABEQAhMVGh/9oACAEBAAE/IaGg4GJ6i/IT4xRwiG5dhsksgh6d3P/aAAwDAQACAAMAAAAQ98//xAAWEQEBAQAAAAAAAAAAAAAAAAABERD/2gAIAQMBAT8QGNx//8QAFREBAQAAAAAAAAAAAAAAAAAAERD/2gAIAQIBAT8QGP/EABwQAQEAAgIDAAAAAAAAAAAAAAERADFBUXGBwf/aAAgBAQABPxB2B9GAmzDaTcb95aURJ0IZdw9gr5cfMAaZvFWE6UvE+Z//2Q==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;picture&gt;
-        &lt;source
-          srcset=&quot;/static/a6fc06eff5fdd82a5c535c17ffcb8595/94563/printer.webp 163w,
-/static/a6fc06eff5fdd82a5c535c17ffcb8595/647a8/printer.webp 325w,
-/static/a6fc06eff5fdd82a5c535c17ffcb8595/c1dc5/printer.webp 650w,
-/static/a6fc06eff5fdd82a5c535c17ffcb8595/71afc/printer.webp 749w&quot;
-          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
-          type=&quot;image/webp&quot;
-        /&gt;
-        &lt;source
-          srcset=&quot;/static/a6fc06eff5fdd82a5c535c17ffcb8595/d2f63/printer.jpg 163w,
-/static/a6fc06eff5fdd82a5c535c17ffcb8595/c989d/printer.jpg 325w,
-/static/a6fc06eff5fdd82a5c535c17ffcb8595/6aca1/printer.jpg 650w,
-/static/a6fc06eff5fdd82a5c535c17ffcb8595/29177/printer.jpg 749w&quot;
-          sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
-          type=&quot;image/jpeg&quot;
-        /&gt;
-        &lt;img
-          class=&quot;gatsby-resp-image-image&quot;
-          src=&quot;/static/a6fc06eff5fdd82a5c535c17ffcb8595/6aca1/printer.jpg&quot;
-          alt=&quot;Printer&quot;
-          title=&quot;Printer&quot;
-          loading=&quot;lazy&quot;
-          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        /&gt;
-      &lt;/picture&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Upon receiving information from sensors, the information is either kept static for analytical/display purposes or is manipulated to derive further information. &lt;/p&gt;
-&lt;p&gt;In our day to day lives, we are often blind to the occurrences of data manipulation. For example, your printer receives a document sent by your laptop/mobile device and prints it out. Your car key, when “unlock” is pressed, sends a signal to your car which unlocks the door.&lt;/p&gt;
-&lt;h2&gt;What’s Next?&lt;/h2&gt;
-&lt;p&gt;The potential of the IoT is endless and as Bruce Schneier says, &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“The internet is no longer a web that we connect to. Instead, it’s a computerized, networked, and interconnected world that we live in. This is the future, and what we’re calling the Internet of Things.”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;If you are interested in learning more about the IoT and building IoT projects of your own, you’ve come to the right place!  &lt;strong&gt;Stay tuned to our blogs as we will be posting more articles and tutorials on how you can kickstart your journey into the Internet of Things.&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[About Us]]></title><description><![CDATA[ The TinoIOT (Internet Of Things) Club’s primary objective revolves around the introduction and promotion of engineering and collaboration.  Our mission…]]></description><link>https://tinoiot.com/blogs/about-us/</link><guid isPermaLink="false">https://tinoiot.com/blogs/about-us/</guid><pubDate>Wed, 19 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/static/cb58475fb36cea4bba85db52207c51a0/2244e/featured_img.jpg&quot;/&gt;&lt;h2&gt;Our Objective&lt;/h2&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[About Us]]></title><description><![CDATA[ The TinoIOT (Internet Of Things) Club’s primary objective revolves around the introduction and promotion of engineering and collaboration.  Our mission…]]></description><link>https://tinoiot.com/blogs/about-us/</link><guid isPermaLink="false">https://tinoiot.com/blogs/about-us/</guid><pubDate>Wed, 19 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/static/cb58475fb36cea4bba85db52207c51a0/2244e/featured_img.jpg&quot;/&gt;&lt;h2&gt;Our Objective&lt;/h2&gt;
 &lt;p&gt;The TinoIOT (Internet Of Things) Club’s primary objective revolves around the introduction and promotion of engineering and collaboration.  &lt;/p&gt;
 &lt;h2&gt;Club Mission&lt;/h2&gt;
 &lt;p&gt;Our mission is to provide each club member with the necessary knowledge to find their individual passions in the world of IoT. An IoT device, by definition, is an electronic device that can transfer data over a network without human interaction. Many of our common household appliances such as smart TVs, watches, and voice assistants are all constantly transmitting vital data in the background, and keeping their users reliably and consistently informed. Although IoT is all around us, many of us have never seen a network interface, or touched the hardware beneath the sleek exterior of these devices. TinoIOT serves as an enabling gateway that promotes free exploration and creation of IoT devices to  students. Club members develop customizable IoT devices for applications of their choosing through instruction from both a detailed curriculum and informative project posts on our website.  &lt;/p&gt;
@@ -1164,61 +1184,4 @@ s&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;run&lt;span class
 &lt;li&gt;Make your channel public and share it with your friends.&lt;/li&gt;
 &lt;li&gt;Try reading data from ThingSpeak using GET requests, as shown in the API Keys tab.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- end of article --&gt;</content:encoded></item><item><title><![CDATA[William's Test Page]]></title><description><![CDATA[  The following are resons why they are cool Wikipedia says:   The wild turkey (Meleagris gallopavo) is an upland ground bird…]]></description><link>https://tinoiot.com/pre-prods/william-test-page/</link><guid isPermaLink="false">https://tinoiot.com/pre-prods/william-test-page/</guid><pubDate>Wed, 12 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;/static/9eac7a5fce2d09ef085f84b4591f2fd3/2244e/wild_turkey.jpg&quot;/&gt;&lt;h2&gt;Hey guys and gals! Lets learn about wild turkeys!&lt;/h2&gt;
-&lt;!-- end --&gt;
-&lt;h2&gt;Turkeys are pretty cool ngl&lt;/h2&gt;
-&lt;p&gt;The following are resons why they are cool&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;They are birds&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;They can fly&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;but not &lt;strong&gt;too&lt;/strong&gt; well&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;They gobble so they cant hurt your feelings *or at least you wouldn’t know if they did**&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;What does the internet say about turkeys?&lt;/h2&gt;
-&lt;p&gt;Wikipedia says: &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The wild turkey (Meleagris gallopavo) is an upland ground bird native to North America, one of two extant species of turkey, and the heaviest member of the diverse Galliformes. It is the same species as the domestic turkey, which was originally derived from a southern Mexican subspecies of wild turkey (not the related ocellated turkey). Although native to North America, the turkey probably got its name from the domesticated variety being imported to Britain in ships coming from the Levant via Spain. The British at the time therefore associated the wild turkey with the country Turkey and the name prevails. [2][3][4] An alternative theory posits that another bird, a guinea fowl native to Madagascar introduced to England by Turkish merchants, was the original source, and that the term was then transferred to the New World bird by English colonizers with knowledge of the previous species.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 480px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABm3iGh0gf/8QAGRAAAwEBAQAAAAAAAAAAAAAAAAECERIi/9oACAEBAAEFAn5NihyjNUxr4P/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwGRj//EABkQAAEFAAAAAAAAAAAAAAAAACEBECBBUf/aAAgBAQAGPwJMuADf/8QAHhAAAgIBBQEAAAAAAAAAAAAAAREAIUExUWGBkaH/2gAIAQEAAT8hftEt+IAaa8jNQ4uHDqYSbuEXp9n/2gAMAwEAAgADAAAAELg//8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8QR//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPxCDb//EAB4QAQACAgEFAAAAAAAAAAAAAAEAESExQVFhcZHh/9oACAEBAAE/EEFFBpLoWDzn1DNAndWhczXGYLC3RVFPWIB4BNHIRm17vzP/2Q==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;picture&gt;
-        &lt;source
-          srcset=&quot;/static/9eac7a5fce2d09ef085f84b4591f2fd3/94563/wild_turkey.webp 163w,
-/static/9eac7a5fce2d09ef085f84b4591f2fd3/647a8/wild_turkey.webp 325w,
-/static/9eac7a5fce2d09ef085f84b4591f2fd3/d3be9/wild_turkey.webp 480w&quot;
-          sizes=&quot;(max-width: 480px) 100vw, 480px&quot;
-          type=&quot;image/webp&quot;
-        /&gt;
-        &lt;source
-          srcset=&quot;/static/9eac7a5fce2d09ef085f84b4591f2fd3/d2f63/wild_turkey.jpg 163w,
-/static/9eac7a5fce2d09ef085f84b4591f2fd3/c989d/wild_turkey.jpg 325w,
-/static/9eac7a5fce2d09ef085f84b4591f2fd3/7cc5e/wild_turkey.jpg 480w&quot;
-          sizes=&quot;(max-width: 480px) 100vw, 480px&quot;
-          type=&quot;image/jpeg&quot;
-        /&gt;
-        &lt;img
-          class=&quot;gatsby-resp-image-image&quot;
-          src=&quot;/static/9eac7a5fce2d09ef085f84b4591f2fd3/7cc5e/wild_turkey.jpg&quot;
-          alt=&quot;turkey.jpg&quot;
-          title=&quot;turkey.jpg&quot;
-          loading=&quot;lazy&quot;
-          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        /&gt;
-      &lt;/picture&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Learn more on the &lt;a href=&quot;https://en.wikipedia.org/wiki/Wild_turkey&quot;&gt;Turkey fan page&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Turkey.js&lt;/h2&gt;
-&lt;p&gt;Here is my turkey code (dw if you cant figure it out rn cause its kinda complex):&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token function&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;document&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;ready&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;I like turkeys&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
+&lt;!-- end of article --&gt;</content:encoded></item></channel></rss>
