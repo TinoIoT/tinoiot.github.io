@@ -1,2 +1,4 @@
-User-agent: *
+User-Agent: *
 Disallow:
+
+Sitemap: http://tinoiot.com/sitemap.xml
